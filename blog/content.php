@@ -21,7 +21,7 @@
       <section>
         <div class="blog-image-one-off blog-photo" role="img" aria-label="Laptop with code editor open on a desk" title="Photo: Unsplash (free to use)" style="background-image: url('/images/blog/web-dev-laptop.jpg')"></div>
         <p>
-          <strong>So I finally sat down to make my own website practice what it preaches.</strong> Accessibility, semantic HTML, SEO-friendly markup — I talk about all of that on my services page. But when I actually ran a standards check on my local Apache setup? Oh boy. It was like hiring a building inspector for a house you built yourself and hearing them tap the walls going, <em>&quot;Hmm. Interesting choices.&quot;</em>
+          <strong><em>So</em> I finally sat down to make my own website practice what it preaches.</strong> Accessibility, semantic HTML, SEO-friendly markup — I talk about all of that on my services page. But when I actually ran a standards check on my local Apache setup? Oh boy. It was like hiring a building inspector for a house you built yourself and hearing them tap the walls going, <em>&quot;Hmm. Interesting choices.&quot;</em>
         </p>
         <p>
           The good news: my PHP include setup — <code>header.php</code>, <code>navbar.php</code>, <code>content.php</code>, <code>footer.php</code> — is a solid pattern. One shell, swap the middle. Very &quot;reusable template files,&quot; very hand-coded, very me. The bad news: the HTML inside those includes had issues. Wrong ARIA roles, duplicate <code>&lt;h1&gt;</code> tags, inline styles everywhere, and a contact modal that only worked on the homepage because the JavaScript lived in one file instead of a shared script. Classic spaghetti — except the noodles were spread across four PHP files.

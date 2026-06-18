@@ -1,0 +1,9 @@
+# Secrets — never commit tokens or credentials
+pat.txt
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo

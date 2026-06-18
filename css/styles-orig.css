@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imbue:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style the body */
+body {
+    font: normal normal 1.5em/30px 'Cormorant Garamond', serif;
+    margin: 0;
+    }
+/* set the headers to normal line height */
+h1, h2, h3, h4, h5 {
+    line-height: normal;
+    font-family: 'Imbue', serif;
+    text-shadow: 4px 4px 4px rgba(46, 48, 62, 0.50);
+    }
+/* Header/logo Title */
+header {
+    padding: 0;
+    margin: 0;
+    height: 100px;
+    text-align: center;
+    background: #4f6339 url('/images/keyboard.png');
+    background-size: 100vh;
+    background-attachment: fixed;
+    color: white;
+    }
+header > h1 {
+    padding: 0; margin: 0;
+    font-size: 12vh;
+    line-height: 100px;
+    font-family: 'Imbue', serif;
+    text-shadow: 4px 4px 4px rgba(46, 48, 62, 0.99);
+    }
+  
+/* Style the top navigation bar */
+nav {
+    padding: 0; margin: 0;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgba(46,48,62, 1);
+    }
+
+/* Style the navigation bar links */
+nav .list-inline {
+	font-size: 2.4vh;
+	padding: 0 0 0 5px;
+  margin: 0;
+	}
+	
+nav .list-inline li {
+	font-size: 1.5em;
+	display: inline-flex;
+	padding: 0;	
+	}
+
+nav .list-inline a {
+    padding-left: 15px;
+    color: white;
+    text-shadow: 4px 4px 4px rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    transition: ease-in-out;
+    transition-duration: 250ms;
+	}
+nav .list-inline a:hover {
+	color: #fff;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 1);
+  background-color: rgba(46,48,62, 0.9);
+	}
+#right-nav-item {
+  position: absolute;
+  right: 5px;
+  }
+#right-nav-item a:hover::before {
+  content: "client area → ";
+  background-color: #fff;
+  color:rgba(46, 48, 62, 1);
+  text-decoration: none;
+  z-index: 10;
+  }
+/* Column container */
+.row {  
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+    flex: 30%;
+    background-color: rgba(236,232,211, 0.7);
+    padding: 20px;
+    z-index: 3;
+    }
+  
+.side ul {
+    list-style: none;
+    text-align: center;
+    }
+  
+.side .portfolio-image {
+  border-width: 1em;
+  border-radius: 5%;
+  border-style: double;
+  border-color: rgba(46, 48, 62, 0.2);
+  border-radius: 15%;
+  transition: ease-in-out;
+  transition-duration: 2s;
+  }
+
+.side .portfolio-image:hover {
+  border-color: rgba(46, 48, 62, 0.8);
+  width: 200%;
+  top: auto;
+  left: auto;
+  right: auto;
+  bottom: auto;
+  }
+
+/* Main column */
+.main {
+    flex: 70%;
+    position: relative;
+    padding: 20px;
+    }
+
+blockquote {
+  font-family: 'Imbue', serif;
+  font-style: italic;
+  }
+blockquote::first-letter {
+  font-size: 2em;
+  font-style: italic;
+  }
+blockquote::before {
+  content: "\"";
+  font-size: 1em;
+  padding: 0; margin: 0;
+  }
+blockquote::after {
+  content: "\"";
+  font-size: 2em;
+  padding: 0; margin: 0;
+  }
+
+/* Fake image, just for this example */
+.images {
+    background-color: transparent;
+    background-image: url('/images/office-opt.jpg');
+    background-size: 200vh;
+    background-attachment: fixed;
+    width: 100%;
+    padding: 20px;
+    border: 12px double rgba(46, 48, 62, 0.5);  
+    }
+  
+.anchor {
+  padding: 0 3em 3em 3em;
+  border-top: 2px dashed rgba(46,48,62, 1);
+	border-bottom: 1px dashed rgba(46,48,62, 1);
+  box-shadow: inset 0 -1px 0 0 rgba(46,48,62, 1), inset 0 1px 0 0 rgba(46,48,62, 1), 0 1px 0 0 rgba(46,48,62, 1), 0 -1px 0 0 rgba(46,48,62, 1);
+	margin-bottom: 1px;  
+  }
+
+.blog-image {
+  background-color: rgba(0,0, 0, 0.5);
+  background-image: url('/images/blog-logo2.png');
+  background-size: 75vh;
+  background-attachment: fixed;
+  width: 45%;
+  height: 70%;
+  float: right;
+  margin: 1em 0 1em 1em;
+  border: 7px double rgba(184, 173, 149, 7);
+  position: relative;
+  display: inline-block;
+  box-shadow: 5px 5px 8px 5px #888;
+  }
+
+.blog-image-one-off {
+  float: right;
+  margin: 1em;
+  border: 7px double rgba(184, 173, 149, 7);
+  position: relative;
+  display: inline-block;
+  }
+  
+#side-text p::first-letter, #side-text p::first-line {
+  text-indent: 1em;
+  font-weight: bolder;
+  font-style: italic;
+  }
+/*
+#side-text p::after {
+  content: "!";
+  width: 50px;
+}
+*/    
+.seo-grid {
+	display: grid;
+  display: -ms-grid;
+	grid-template-columns: repeat(5, 1fr);
+  -ms-grid-columns: repeat(5, 1fr);
+	grid-template-rows: 0.5fr repeat(4, 1fr);
+  -ms-grid-rows: 0.5fr repeat(4, 1fr);
+	grid-column-gap: 3px;
+	grid-row-gap: 3px;
+	}
+
+
+/* make way for the contact form :) */
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+/* Style the submit button with a specific background color etc */
+input[type=submit], input[type=reset], button {
+  background-color: rgba(46,48,62, 0.5);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: ease-in-out;
+  transition-duration: 500ms;
+  }
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover, input[type=reset]:hover, button:hover {
+  background-color: rgba(236,232,211, 1);
+  }
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  }
+
+.not-normal-link, .not-normal-link:link, .not-normal-link:visited {
+  color: #000;
+  }
+
+/* now for some modal fun (overlays) */
+.openModalButton {
+  background-color: rgba(236,232,211, 0.5);
+  color: #000;
+  font-size: 1em;
+  border: 1px solid #000;
+  border-radius: 0;
+  }
+
+.openModalButton:hover {
+  color: #fff;
+  border-radius: 50%;
+  background-color: rgba(46,48,62, 0.95);
+  animation-duration: 1s;
+  animation-name: bounce;
+  }
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+  40% {transform: translateY(-30px);} 
+  60% {transform: translateY(-15px);} 
+  }
+
+/* The Overlay (background) */
+.overlay {
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+  height: 100%;
+  width: 0;
+  position: fixed; /* Stay in place */
+  z-index: 7; /* Sit on top */
+  left: 0;
+  top: 0;
+  background-color: rgb(0,0,0); /* Black fallback color */
+  background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 1s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+  }
+
+/* Position the content inside the overlay */
+.overlay-content {
+  position: relative;
+  top: 5%; /* 25% from the top */
+  width: 100%;
+  text-align: center; /* Centered text/links */
+  margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+  }
+.overlay-content .container {
+  text-align: left;
+  width: 100%;
+  border: 25px solid rgba(46, 48, 62, 0.5);
+  }
+.overlay-content .container form {
+  text-align: left;
+  }
+/*   The navigation links inside the overlay */
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block; /* Display block instead of inline */
+  transition: 0.3s; /* Transition effects on hover (color) */
+  } 
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+  }
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  }
+
+footer {
+  display: flex;
+  text-align: center;
+  background: rgba(79,99,57, 0.5);
+  background-size: 100vh;
+  background-attachment: fixed;
+  color: white;
+  }
+footer h2, footer h3 {
+  padding: 0; margin: 0;
+  font-size: 5vh;
+  line-height: 100px;
+  font-family: 'Imbue', serif;
+  text-shadow: 4px 4px 4px rgba(46, 48, 62, 0.99);
+  }
+  
+footer aside {
+  flex: 1;
+  background: #7c311e;
+  } 
+footer aside h2, footer aside h3 {
+  margin-bottom: -.25em;
+  }
+footer aside a {
+  color: #fff;
+  }
+/* not used lol */
+/*
+footer .ball {
+  width: 100px;
+  height: 100px;
+  background: red;
+  border-radius: 50%;
+  position: relative;
+  -webkit-animation: mymove 5s infinite;
+  -webkit-animation-delay: 3s;
+  animation: mymove 5s infinite;
+  animation-delay: 3s;
+  overflow: hidden;
+  }
+*/
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+  from {left: -1000px;}
+  to {left: 1000px;}
+  }
+
+@keyframes mymove {
+  from {left: -1000px;}
+  to {left: 1000px;}
+  }
+
+/* blog area */
+#example-grid-container {
+  display: grid;
+  border-radius: 15%;
+  border: 4 double rgba(236,232,211, 0.5);
+  }
+
+header { grid-area: header; }
+nav { grid-area: nav; }
+aside { grid-area: aside; }
+main { grid-area: main; }
+footer { grid-area: footer; }
+  
+#example-grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'nav nav nav nav nav'
+    'aside main main main main main'
+    'aside footer footer footer footer footer';
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+  }
+  
+
+/* Responsive layout - 450px */
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+  body {margin: 0; padding: 0; width: 100%;}
+  .side, .main, .anchor, .row, nav, footer, p, h1, h2, h3, h4, h5 {float: none; flex: none; margin: 0; padding: 0; width: 100%; font-size: 1em;}
+  .blog-image, .blog-image-one-off {float: none; margin: 0; width: 75%;}
+  } 
+/* end modal (overlays) */

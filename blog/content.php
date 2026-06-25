@@ -668,6 +668,244 @@
         </p>
       </section>
     </article>
-    <!-- Other blog posts follow here... -->
+
+    <h2>From the Archives</h2>
+    <p><em>Rants and ramblings from FierceStreet Networks (2004&ndash;2005).</em></p>
+
+    <article class="blog-post" id="apache-redirect-301">
+      <header>
+        <h2>Apache Redirect 301</h2>
+        <h3>December 04, 2005</h3>
+      </header>
+      <section>
+        <p>Since redirecting my <a href="/search-engine-optimization/">SEO tips</a> pages to the new sub domain (see previous post&hellip;), I was having problems with the redirection. I even asked the PHP/Apache forum I belong to for help. Members there, one in particular, helped me with the Apache <strong>.htaccess</strong> code.</p>
+        <p>After several attempts to make the redirection work, it seems that we all were stumped! Nothing did the trick! Well, thanks to my great new web host, it was determined that the .htaccess file was being edited at the new sub domain root, and not the original sub domain root!</p>
+      </section>
+    </article>
+
+    <article class="blog-post" id="seo-tips-moved">
+      <header>
+        <h2>Search Engine Optimization Tips &mdash; Moved!</h2>
+        <h3>November 18, 2005</h3>
+      </header>
+      <section>
+        <p>I&apos;ve moved all my blogging of SEO tips and news to my newest site, <a href="/search-engine-optimization/">search engine optimization tips</a>. Funny thing about that is, I <em>did</em> have a PR3 on that sub-domain, but since my move to a new web host, the sub domain has lost its PR!</p>
+        <p>Well, it&apos;s not the web host&apos;s fault, and it&apos;s not the actual move of the content to a new server either&hellip; Let me put it this way, I&apos;ve had to create an Apache <em>redirect 301</em> from the old site to the new SEO site. Why? Well&hellip;</p>
+        <h4>Here I go <em>thinking</em> again!</h4>
+        <p>I&apos;ve targeted &quot;search engine optimization tips&quot; as my anchor text. But, my original URL was not <code>search-engine-optimization-tips</code>, but <code>search-engine-optimization</code>. Notice the keyword <strong><em>tips</em></strong>? Google (and other SEs) will hold a result for any keyword or keyphrase found in an actual URL higher in importance than results found in simple anchor text. So I wanted to capitalize on my unlimited sub-domain account with my new hosting provider.</p>
+        <p>So, even with the 301 redirect, my site drops its PR3 due to it being a &quot;new&quot; site in Google&apos;s eyes.</p>
+      </section>
+    </article>
+
+    <article class="blog-post" id="google-advanced-search">
+      <header>
+        <h2>Google Advanced Search Filters</h2>
+        <h3>November 17, 2005</h3>
+      </header>
+      <section>
+        <p>My site ranks in 27th place in SERPs for <strong>allintitle</strong>, while I&apos;m at 6th and 7th for <strong>allintitle</strong> for the keyphrase <a href="/">web design standards</a>.</p>
+      </section>
+    </article>
+
+    <article class="blog-post" id="off-page-seo">
+      <header>
+        <h2>Off-Page Search Engine Optimization</h2>
+        <h3>October 30, 2005</h3>
+      </header>
+      <section>
+        <p>There has been a lot of talk regarding SERPs and off-page SEO. It seems that Google has changed their algorithm to thwart &quot;black-hat&quot; techniques &mdash; this is nothing new &mdash; but there&apos;s a difference. Now, sites are being penalized for linking/being linked from &quot;link-farm&quot; type of sites.</p>
+      </section>
+    </article>
+
+    <article class="blog-post" id="sitemap-updated">
+      <header>
+        <h2>Sitemap Updated!</h2>
+        <h3>September 06, 2005</h3>
+      </header>
+      <section>
+        <p>A few things have changed since my last entry. I&apos;ve completely redone the SEO page. To fully utilize SEO skills, I&apos;ve created a sub domain for search engine optimization. By doing this, I&apos;m using the keyword-in-domain-name technique.</p>
+        <p>I&apos;ve also added a few tips to the web accessibility pages. And yes, I&apos;ve updated my sitemap to reflect the additional pages.</p>
+        <h4>Hurricane Katrina</h4>
+        <p>On a sober note, let&apos;s pray for the victims of the devastating hurricane that hit our Southern States! I pray that people will open up to God, and will accept Jesus into their hearts&hellip;</p>
+      </section>
+    </article>
+
+    <article class="blog-post" id="still-alive">
+      <header>
+        <h2>I&apos;m Still Alive!</h2>
+        <h3>April 22, 2005</h3>
+      </header>
+      <section>
+        <div class="blog-image-one-off blog-photo" role="img" aria-label="Buddy the puppy" style="background-image: url('/images/buddy-baby-500x400.jpg')"></div>
+        <p>Wow, it&apos;s been a long time since I posted here! I&apos;ve made some recent changes. One change I have made is to gear this site away from selling my web design services (of which I have made <strong>no</strong> money from) and my tech support services. It is now totally geared to Web Standards, and Accessibility. Why, you ask? Well, since I was not charging anyway for my services, I wanted to (re)direct the theme to web tech stuff.</p>
+        <p>On a sad note, I had to give up my dogs this week! The picture I have of Star (bottom dog) will stay! Yes, my landlord decided that I had too many. Well, I did end up with 5 dogs! Three of them were puppies. I came upon them as, &quot;Wow, you mean I can rescue it?&quot;</p>
+        <p>So, I had two Boxer/Rottweiler puppies, and one (my favorite!!!!!) German Shepherd.</p>
+        <div class="blog-image-one-off blog-photo" role="img" aria-label="Star with Christmas hat" style="background-image: url('/images/star-500x802.jpg')"></div>
+      </section>
+    </article>
+
+    <article class="blog-post" id="ie7-and-i">
+      <header>
+        <h2>IE7 and I</h2>
+        <h3>March 04, 2005</h3>
+      </header>
+      <section>
+        <p>Well, I bit the bullet and setup <a href="https://dean.edwards.name/IE7/" rel="external">Dean Edwards&apos; IE7</a> <em>fix</em> on my web host&apos;s Apache server. Now, IE behaves <em>like</em> standards-compliant browsers like Firefox, Mozilla 1.7.5, and Opera. There were a few bugs that had to be ironed out, but Dean put a lot of work into them, and so far, so good!</p>
+        <p>On a side note, I have officially titled myself &quot;Standards Evangelist&quot;. So, not only am I an Evangelist for Christ, I also try to spread the word on <strong>web standards</strong> and <strong>accessibility</strong>.</p>
+        <p>Oh yeah, one more thing. I have decided to reveal the &quot;skipper&quot; menu. This &quot;skipper&quot;, or &quot;jump to&quot; menu allows users who have CSS turned off (many reasons!), or people who have a sight impairment of some degree, and use <strong>screen readers</strong> to surf the web, the ability to skip to the areas they prefer to read &mdash; or hear.</p>
+        <p>The technique I <em>was</em> using to hide the skipper div was pretty simple:</p>
+        <ul>
+          <li>I use an unordered list to contain the links.</li>
+          <li>I then used my external CSS file to &quot;hide&quot; it: <code>#skipper {width: 0; height: 0; overflow: hidden; text-indent: -9000px;}</code></li>
+          <li>Now, this is what I am doing: <code>#skipper {position: absolute; top: 1px; left: 1px; font-size: .7em; margin: 0; padding: 0;}</code></li>
+        </ul>
+      </section>
+    </article>
+
+    <article class="blog-post" id="xhtml-11-weblog">
+      <header>
+        <h2>XHTML 1.1</h2>
+        <h3>February 17, 2005</h3>
+      </header>
+      <section>
+        <p><strong>Big news!</strong> This weblog is now served as XHTML 1.1. If you&apos;re viewing this site with IE, then you&apos;ll get XHTML 1.0. But, if you&apos;re using a <strong>good</strong> browser, such as Mozilla Firefox, or Opera, you&apos;ll get the benefits of XHTML 1.1.</p>
+        <p>And guess what? The entry titled &quot;Google, where are you?&quot; on December 29th, &apos;04, is dynamically placed within the XHTML of this page with PHP.</p>
+      </section>
+    </article>
+
+    <article class="blog-post" id="rss">
+      <header>
+        <h2>RSS</h2>
+        <h3>February 03, 2005</h3>
+      </header>
+      <section>
+        <p>Really Simple Syndication, or RSS as it is acronymically known, is a hot tool to use on any website. I will be experimenting with it on this site very soon!</p>
+      </section>
+    </article>
+
+    <article class="blog-post" id="fir-techniques">
+      <header>
+        <h2>FIR Techniques and More</h2>
+        <h3>January 31, 2005</h3>
+      </header>
+      <section>
+        <h4>FIR</h4>
+        <p>I have decided to add the updated FIR technique to this site. This will allow me to add some cool graphical headings, without sacrificing accessibility. I am very excited about that.</p>
+        <h4>Google, Where Are You &mdash; Revisited &mdash; Way to Go MSN!</h4>
+        <p>Google <strong>still</strong> has my site within its &quot;sandbox&quot;! I cannot wait for my site to break out of it. MSN, however has formally released its beta search engine. It is now the default engine for msn.com.</p>
+        <p>The great news about this is simple&hellip; I rank at the top (3rd place/4th place!) of MSN for &quot;web design standards&quot; and &quot;small business web site design&quot;.</p>
+        <p><strong>Update</strong>: MSN has implemented their beta search engine! My site ranks <strong>3rd</strong> for the highly competitive key phrase &quot;web design standards&quot; and <strong>4th</strong> for &quot;small business web site design&quot;.</p>
+      </section>
+    </article>
+
+    <article class="blog-post" id="google-sandbox">
+      <header>
+        <h2>Google, Where Are You?</h2>
+        <h3>December 29, 2004</h3>
+      </header>
+      <section>
+        <p>I just cannot get over Google and its &quot;sandbox&quot;! Let me explain&hellip; Google seems &mdash; and this is just not theory anymore, but tested and confirmed &mdash; hides a new site, with a new domain name, from its SERPs for quite a few months.</p>
+        <p>Seem too strange to believe? I thought so too. Then, as I have been working on this site, I have noticed my SERPs dropping drastically! I had a top 5 position on Google for &quot;web design standards&quot; before I acquired my FQDN. Now, I do not even rank for that phrase in Google&apos;s top 500!</p>
+        <p>Now for the good news! I do have the top 3 position on MSN&apos;s beta search engine, as well as 4th place, for my keywords:</p>
+        <ul>
+          <li>web design standards &mdash; top 3 on MSN beta</li>
+          <li>small business website design &mdash; top 4 position on MSN beta</li>
+        </ul>
+      </section>
+    </article>
+
+    <article class="blog-post" id="new-colors">
+      <header>
+        <h2>New Colors and Other Stuff</h2>
+        <h3>December 22, 2004</h3>
+      </header>
+      <section>
+        <p>Hopefully you will like the new color scheme I have chosen for this site. I also changed the masthead logo. I used to have a close-up of a German Shepherd&apos;s face, but decided to go with a <em>cleaner</em> look.</p>
+        <p>Christmas is almost here! I cannot wait to celebrate the birth of Jesus Christ!</p>
+      </section>
+    </article>
+
+    <article class="blog-post" id="site-updates-dec">
+      <header>
+        <h2>Site Update(s)</h2>
+        <h3>December 07, 2004</h3>
+      </header>
+      <section>
+        <p>I have moved the website templates that I have created into a templates sub-folder. I will be adding an index page to the folder, and branch out the templates from that page. Right now, my sales.html page is the starting point for them.</p>
+      </section>
+    </article>
+
+    <article class="blog-post" id="re-re-redesign">
+      <header>
+        <h2>Re-Re-Redesign</h2>
+        <h3>November 29, 2004</h3>
+      </header>
+      <section>
+        <p>I have had a great Thanksgiving holiday! Speaking of re-design (ok, not making sense, but&hellip;) I have redone my Web Design Tips Tricks page. I have split the page itself into one main page, with three sub, or support, pages. They are the accessibility, SEO, and XHTML/CSS pages.</p>
+        <p>The theory behind this is called the <strong>Search Engine Optimization Pyramid</strong>.</p>
+      </section>
+    </article>
+
+    <article class="blog-post" id="re-redesign">
+      <header>
+        <h2>Re-Redesign</h2>
+        <h3>November 01, 2004</h3>
+      </header>
+      <section>
+        <p>Re-redesign &mdash; is that even a word? I guess it is now&hellip; I have redesigned most of the CSS for this site. I have kept the color scheme, but have added <strong>#9a440c</strong>. I have taken out the sidebar navigation borders, which added a button look to the links. I want a more minimalist look, and believe this is a start.</p>
+      </section>
+    </article>
+
+    <article class="blog-post" id="xhtml-11-pr">
+      <header>
+        <h2>XHTML 1.1 &mdash; Content Negotiation</h2>
+        <h3>October 25, 2004</h3>
+      </header>
+      <section>
+        <p>With the help of dyer85, I am going to use PHP to serve my pages in XHTML 1.1 &mdash; and 1.0 Strict for non-compliant browsers (MS IE). I&apos;ll keep a running log of the process.</p>
+        <p>A bit of other news, my site has the following Google PageRank:</p>
+        <ul>
+          <li>web design standards (index) &mdash; PR3</li>
+          <li>Small Business Support (/support/) &mdash; PR2</li>
+          <li>Portfolio / Sales &mdash; PR3</li>
+          <li>Weblog &mdash; N/A</li>
+          <li>Web Design Tips Tricks &mdash; PR2</li>
+          <li>Anti-Virus tips and Info &mdash; PR2</li>
+          <li>News Articles &mdash; PR1</li>
+          <li>GAWDs launch &mdash; PR2</li>
+        </ul>
+      </section>
+    </article>
+
+    <article class="blog-post" id="anniversary">
+      <header>
+        <h2>Last Weekend of This Month!</h2>
+        <h3>October 20, 2004</h3>
+      </header>
+      <section>
+        <p>My anniversary is at the end of this month. I cannot believe it has been 5 years since I got married to my beautiful wife!</p>
+      </section>
+    </article>
+
+    <article class="blog-post" id="site-update-oct">
+      <header>
+        <h2>Site Update</h2>
+        <h3>October 14, 2004</h3>
+      </header>
+      <section>
+        <p>After some good advice-links from my good friend <a href="https://billcreswell.com/" rel="external">Bill Creswell</a>, I have redone, well, torn apart is more like it, the homepage to this site. It now features &quot;everyday talk&quot; &mdash; kind of like these blog entries. I want to convey a more personal touch to my web design, and give some info in the process.</p>
+      </section>
+    </article>
+
+    <article class="blog-post" id="php-and-me">
+      <header>
+        <h2>PHP and Me</h2>
+        <h3>February 04, 2004</h3>
+      </header>
+      <section>
+        <p>My second attempt at PHP! I built a simple contact form to test form handling &mdash; name, email, URL, subject, and message fields. It was my first real step into server-side scripting on FierceStreet Networks, and it opened the door to everything that came after: dynamic includes, content negotiation for XHTML 1.1, and eventually this very site.</p>
+      </section>
+    </article>
+
   </article>
 </main>

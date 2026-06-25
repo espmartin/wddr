@@ -1,7 +1,7 @@
 <!-- the top navigation -->
 <nav aria-label="Main navigation">
 	<ul class="list-inline">
-    	    <li><a href="/">home</a></li>
+   	    <li><a href="/">home</a></li>
         <li><a href="/blog/">blog</a></li>
         <li><a href="/articles/">articles</a></li>
         <li><a href="/services/">our services</a></li>

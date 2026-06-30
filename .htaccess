@@ -1,0 +1,11 @@
+RewriteEngine On
+
+# Redirect www to canonical non-www (HTTPS)
+RewriteCond %{HTTP_HOST} ^www\.webdesignsdoneright\.com$ [NC]
+RewriteRule ^(.*)$ https://webdesignsdoneright.com/$1 [R=301,L]
+
+# Force HTTPS on non-www
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteRule ^(.*)$ https://webdesignsdoneright.com/$1 [R=301,L]

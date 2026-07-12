@@ -1,1 +1,1127 @@
-PLACEHOLDER
+<?php
+/*
+ * Copyright 2026 Martin Espericueta
+ *
+ * This web page is mine :)
+ */
+?>
+<!-- The flexible grid (content) -->
+<main class="row" id="main-content">
+<?php require_once('../docs/about.php'); ?>
+<article class="main">
+    <h2>Bloggin' 'bout Web Coding...</h2>
+    <h2>This &amp; That...</h2>
+    <!-- begin blogging area -->
+
+    <article class="blog-post">
+      <header>
+        <h2>Why Web Designing Is Fun (Yes, Actually Fun)</h2>
+        <h3>07/12/26 - Saturday Evening</h3>
+      </header>
+
+      <section>
+        <div class="blog-image-one-off blog-photo" role="img" aria-label="Arch Linux laptop showing PHP code for a contact modal" title="Photo: Martin&apos;s desk, July 2026" style="background-image: url('/images/blog/web-design-fun.jpg')"></div>
+        <p>
+          <strong>People assume web design is either a spreadsheet chore or a drag-and-drop fever dream.</strong> Neither is true when you&apos;re hand-coding on Arch Linux at 5:18 p.m. with a contact modal open, a wolf howling at the moon on your wallpaper, and the quiet satisfaction of watching valid markup do exactly what you told it to do. That&apos;s not work. That&apos;s craft with syntax highlighting.
+        </p>
+        <p>
+          Web designing is fun because it&apos;s part puzzle, part art project, and part &quot;why is this three-pixel gap judging my entire life?&quot; The moment you fix that gap, you feel like you invented gravity. The moment your modal finally slides in without trapping focus in the footer, you feel like a civilized adult who understands software. Both feelings are valid. Both are addictive.
+        </p>
+      </section>
+
+      <section>
+        <h3>The Joy Hits Different When You Build It Yourself</h3>
+        <div class="blog-image-one-off blog-photo" role="img" aria-label="Developer workspace with laptop and creative tools" title="Photo: Unsplash (free to use)" style="background-image: url('/images/blog/creative-coding.jpg')"></div>
+        <p>
+          Free builders give you convenience. Hand-coding gives you <em>agency</em>. You decide the HTML structure. You choose the breakpoints. You write the CSS that makes a navbar behave on a phone instead of staging a hostage situation behind a hamburger icon. When something breaks, you know where it lives — usually in a file you can open, not a settings panel buried under three upsells and a tutorial hosted by a stranger.
+        </p>
+        <ul>
+          <li>You see an idea become a real page in minutes, not &quot;after the template loads its personality&quot;</li>
+          <li>Small wins stack up: semantic landmarks, working forms, a header that stops invading the navbar like an overfriendly houseguest</li>
+          <li>You learn constantly — browsers, accessibility, performance, and the eternal adventure of PHP 7.4 vs PHP 8 on production</li>
+          <li>You build something a business owner can point to and say, &quot;That&apos;s mine,&quot; not &quot;That&apos;s my platform subscription&quot;</li>
+        </ul>
+        <p>
+          Is every day sunshine and perfectly aligned flexbox? No. Some days Apache throws a 403 because your <code>DocumentRoot</code> still believes in a folder you deleted two weeks ago. But even those days have entertainment value, which is more than most office jobs can claim.
+        </p>
+      </section>
+
+      <section>
+        <h3>Fun Doesn&apos;t Mean Frivolous</h3>
+        <p>
+          Enjoying the work makes you better at it. You proofread twice. You run the validator. You test the contact slideout on every page because you&apos;re mildly obsessed with things working correctly — not because a client is breathing down your neck, but because broken markup offends your sense of order like a crooked picture frame in an otherwise nice room.
+        </p>
+        <p>
+          If you&apos;re thinking about hiring someone to build your site, ask whether they still like doing this. Burned-out builders ship templates. People who still find the craft fun ship sites that load, make sense, and don&apos;t embarrass you on a phone screen.
+        </p>
+        <p>
+          <em>Web design is fun when it&apos;s yours — your code, your standards, your layout decisions, your victory dance when the modal closes on Escape like a well-mannered guest. I recommend the victory dance. My dog endorses it too.</em>
+        </p>
+        <p><small>Desk photo is mine. Additional photo from <a href="https://unsplash.com" title="Unsplash">Unsplash</a> (free to use).</small></p>
+      </section>
+    </article>
+
+    <article class="blog-post">
+      <header>
+        <h2>Why Listening to Led Zeppelin While Coding Is Cool</h2>
+        <h3>07/11/26 - Saturday Afternoon</h3>
+      </header>
+
+      <section>
+        <div class="blog-image-one-off blog-photo" role="img" aria-label="Laptop on a desk with a concert video playing on a TV in the background" title="Photo: Martin&apos;s desk, July 2026" style="background-image: url('/images/blog/led-zeppelin-coding.jpg')"></div>
+        <p>
+          <strong>Yes, it&apos;s Led Zeppelin. No, I will not spell it &quot;Zepplin&quot; on the title tag.</strong> I will, however, defend the sacred pairing of British rock thunder and hand-coded HTML on a Saturday afternoon. You&apos;ve got your Arch Linux desktop, your wolf wallpaper contemplating the moon like a dramatic roommate, and John Bonham doing drum things on the TV behind you like a productivity coach who refuses to whisper.
+        </p>
+        <p>
+          Coding in silence is fine if you&apos;re debugging a production outage at 2 a.m. Coding with Zeppelin is for the creative stretch — the part where you refactor a navbar, tame a stubborn modal, or finally convince a flex layout to stop behaving like it&apos;s personally offended by your existence.
+        </p>
+      </section>
+
+      <section>
+        <h3>Rock and Markup Share the Same Energy</h3>
+        <div class="blog-image-one-off blog-photo" role="img" aria-label="Musical instruments and studio atmosphere" title="Photo: Unsplash (free to use)" style="background-image: url('/images/blog/music-studio.jpg')"></div>
+        <p>
+          Think about it. A great song has structure: intro, verse, chorus, bridge, outro. A great webpage has structure: header, nav, main, sections, footer. Both fall apart when you throw everything in at once with no hierarchy and call it done. Led Zeppelin didn&apos;t become legendary by stacking fourteen guitar solos and hoping for the best. Neither should your homepage.
+        </p>
+        <ul>
+          <li><strong>&quot;Whole Lotta Love&quot;</strong> — for bold hero sections that know what they want</li>
+          <li><strong>&quot;Ramble On&quot;</strong> — for long blog posts you swear you&apos;ll edit tomorrow</li>
+          <li><strong>&quot;Kashmir&quot;</strong> — for CSS that builds slowly, then suddenly becomes epic</li>
+          <li><strong>&quot;When the Levee Breaks&quot;</strong> — for the moment your local site works but production PHP 7.4 says no</li>
+        </ul>
+        <p>
+          The drums help especially. There&apos;s something about a steady groove that keeps your typing rhythm honest. You stop overthinking. You commit to the markup. You ship the fix. Then you realize you forgot to close a <code>&lt;div&gt;</code> and the validator gives you that look — the same look your spouse gives you when you said you&apos;d be done &quot;in five minutes&quot; two hours ago.
+        </p>
+      </section>
+
+      <section>
+        <h3>Headphones Optional, Attitude Required</h3>
+        <p>
+          I&apos;m not saying Zeppelin is the official soundtrack of web standards compliance. I&apos;m saying energy matters. If you&apos;re building a business site — clean, accessible, fast, professional — you&apos;re still allowed to enjoy the process. Put on music that makes you feel like the layout will obey you. Work like the footer isn&apos;t going to wander into the header unless you invite it.
+        </p>
+        <p>
+          And if your coding playlist is yacht rock, death metal, or lo-fi beats to validate HTML to, good. The point is momentum. The point is showing up at the keyboard with a little swagger and a lot of semantic intent.
+        </p>
+        <p>
+          <em>Code like Bonham drums: confident, deliberate, and loud enough to scare bad markup into behaving. Then pet your dog, save your files, and for heaven&apos;s sake run the validator before you FTP anything.</em>
+        </p>
+        <p><small>Desk photo is mine. Additional photo from <a href="https://unsplash.com" title="Unsplash">Unsplash</a> (free to use).</small></p>
+      </section>
+    </article>
+
+    <article class="blog-post">
+      <header>
+        <h2>Should We Stop Building for the Internet When Phones Are How People Browse?</h2>
+        <h3>06/30/26 - Tuesday Evening</h3>
+      </header>
+
+      <section>
+        <div class="blog-image-one-off blog-photo" role="img" aria-label="Person browsing a website on a smartphone" title="Photo: Unsplash (free to use)" style="background-image: url('/images/blog/phone-browsing.jpg')"></div>
+        <p>
+          <strong>Short answer: yes. Longer answer: also yes, but with a plan.</strong> When I say &quot;stop building for the internet,&quot; I don&apos;t mean burn your router and move to a cabin. I mean stop pretending the desktop browser is the default customer experience. Most people find your business on a phone — in a parking lot, on a couch, in line at the grocery store, squinting through screen glare like they&apos;re decoding ancient hieroglyphs.
+        </p>
+        <p>
+          &quot;The internet&quot; in web-design brain usually means wide layouts, hover states, giant hero banners, and navigation with enough dropdowns to qualify as a filing system. That world still exists. It&apos;s just not where your customers live anymore. Building desktop-first in 2026 is like printing a beautiful full-page newspaper ad and then wondering why nobody reads it while they&apos;re walking the dog.
+        </p>
+      </section>
+
+      <section>
+        <h3>The Phone Is the Front Door Now</h3>
+        <div class="blog-image-one-off blog-photo" role="img" aria-label="Smartphone displaying a mobile app interface" title="Photo: Unsplash (free to use)" style="background-image: url('/images/blog/mobile-first-design.jpg')"></div>
+        <p>
+          Mobile traffic isn&apos;t a trend line on a chart you check once a quarter. It&apos;s the front door. If your site only feels good on a 27-inch monitor, you&apos;ve built a lovely waiting room that most visitors never enter. They hit your homepage on a five-inch screen and immediately know whether you respect their time.
+        </p>
+        <ul>
+          <li>Tap targets big enough for actual human thumbs, not pencil erasers</li>
+          <li>Text that reads without pinch-zoom archaeology</li>
+          <li>Navigation that works one-handed — not a hamburger menu hiding a desktop menu that was never designed for touch</li>
+          <li>Pages that load before your visitor&apos;s patience files for divorce</li>
+          <li>Contact info and calls-to-action where thumbs naturally reach</li>
+        </ul>
+        <p>
+          This isn&apos;t radical. It&apos;s manners. You&apos;re greeting guests at the entrance they actually use.
+        </p>
+      </section>
+
+      <section>
+        <h3>Desktop Isn&apos;t Dead — It&apos;s Just Not in Charge</h3>
+        <div class="blog-image-one-off blog-photo" role="img" aria-label="Analytics dashboard showing website traffic data" title="Photo: Unsplash (free to use)" style="background-image: url('/images/blog/website-analytics.jpg')"></div>
+        <p>
+          Stopping desktop-first design doesn&apos;t mean abandoning desktop. It means flipping the order. Design for the phone first. Make it excellent. <em>Then</em> ask what larger screens can add without wrecking the clarity you earned. Desktop gets bonus real estate — use it for richer visuals and breathing room, not for dumping every link you&apos;ve ever considered into one horizontal navbar.
+        </p>
+        <p>
+          I reworked my own site header because the title kept invading the navbar on small screens like an overfriendly houseguest. That&apos;s what phone-first thinking looks like in practice: you notice the friction, you fix the layout, you test on a real device instead of resizing a browser window and calling it responsive.
+        </p>
+      </section>
+
+      <section>
+        <h3>What to Do About Your Current Site</h3>
+        <p>
+          If your site was built desktop-first — especially on a free builder that &quot;auto-resizes&quot; for mobile — you&apos;re probably serving a shrunken version of a layout that was never meant to be held. Retrofitting mobile usability onto that is like adding a ramp by rearranging the stairs. Possible. Expensive. Full of compromises.
+        </p>
+        <p>
+          Start fresh with mobile as the blueprint, or hire someone who will. Ask how they handle phone layouts. If they say &quot;it adapts automatically,&quot; ask follow-up questions with detective energy. Auto-adapting is not a strategy. Intentional mobile design is.
+        </p>
+        <p>
+          <em>Build for the device in your customer&apos;s hand, not the monitor in your office. The internet isn&apos;t going away — but it&apos;s mostly arriving through a phone screen, and your website should act like it knows that.</em>
+        </p>
+        <p><small>Photos in this post are from <a href="https://unsplash.com" title="Unsplash">Unsplash</a> (free to use).</small></p>
+      </section>
+    </article>
+
+    <article class="blog-post">
+      <header>
+        <h2>Do You &quot;Drop Down&quot; Your Menus Anymore?</h2>
+        <h3>06/29/26 - Monday Afternoon</h3>
+      </header>
+
+      <section>
+        <div class="blog-image-one-off blog-photo" role="img" aria-label="CSS and HTML code displayed on a developer screen" title="Photo: Unsplash (free to use)" style="background-image: url('/images/blog/css-code-screen.jpg')"></div>
+        <p>
+          <strong>Every few years, someone declares dropdown menus dead.</strong> Usually right after they&apos;ve fought a broken mega-menu built by a platform that treats navigation like a junk drawer. Then they pivot to hamburger icons on everything — including desktop sites — and wonder why users can&apos;t find the &quot;Services&quot; page without a treasure map and a spirit of adventure.
+        </p>
+        <p>
+          I&apos;m here to defend the humble CSS dropdown. Not every dropdown. Not the ones that require hover precision worthy of a surgical robot. But a clean, semantic, hand-coded dropdown? Still one of the most useful tools in a desktop navigation toolkit. Yes, I said desktop. We&apos;ll get to mobile in a minute.
+        </p>
+      </section>
+
+      <section>
+        <h3>Why CSS Dropdowns Still Earn Their Keep</h3>
+        <div class="blog-image-one-off blog-photo" role="img" aria-label="Website navigation and layout on a computer monitor" title="Photo: Unsplash (free to use)" style="background-image: url('/images/blog/web-navigation.jpg')"></div>
+        <p>
+          On a wide screen, dropdown menus solve a real problem: too many destinations, not enough horizontal space to shout about all of them at once. A well-built dropdown groups related links, keeps the navbar scannable, and lets users drill into subsections without a page reload. That&apos;s not laziness. That&apos;s information architecture.
+        </p>
+        <ul>
+          <li><strong>Hover and focus support</strong> — desktop users still use mice and keyboards; <code>:hover</code> and <code>:focus-within</code> are valid interaction models</li>
+          <li><strong>Semantic HTML</strong> — a <code>&lt;ul&gt;</code> inside a <code>&lt;li&gt;</code> is exactly what lists are for</li>
+          <li><strong>No JavaScript required</strong> — pure CSS dropdowns are fast, resilient, and don&apos;t break when a script fails to load</li>
+          <li><strong>Predictable behavior</strong> — users have seen dropdowns for decades; familiarity is a feature, not a flaw</li>
+          <li><strong>Clean visual hierarchy</strong> — top-level categories stay visible; details tuck underneath like a well-organized filing cabinet</li>
+        </ul>
+        <p>
+          The problem was never dropdowns. The problem was dropdowns implemented badly — tiny hit areas, no keyboard access, menus that vanish the millisecond your cursor twitches, and fourteen nested levels because someone confused &quot;comprehensive&quot; with &quot;hostile.&quot;
+        </p>
+      </section>
+
+      <section>
+        <h3>What a Good Dropdown Looks Like in 2026</h3>
+        <div class="blog-image-one-off blog-photo" role="img" aria-label="Developer writing code on a laptop" title="Photo: Unsplash (free to use)" style="background-image: url('/images/blog/laptop-coding.jpg')"></div>
+        <p>
+          A modern CSS dropdown should be boring in the best way. It opens on hover <em>and</em> keyboard focus. It stays open long enough for a human being to move their pointer. It doesn&apos;t cover the entire viewport like a pop-up with commitment issues. And on mobile? It shouldn&apos;t be a hover menu at all — it should collapse into an accordion or a tap-to-expand pattern that respects touch.
+        </p>
+        <p>
+          That&apos;s the part people miss when they bury the whole nav behind a hamburger on desktop: you&apos;re hiding navigation that was already working. Dropdowns aren&apos;t the enemy of mobile-first design. They&apos;re the desktop enhancement you earn <em>after</em> the phone layout is solid. Different devices, different patterns, same goal — get people where they need to go without friction.
+        </p>
+      </section>
+
+      <section>
+        <h3>When to Drop the Dropdown (Pun Intended)</h3>
+        <p>
+          Skip dropdowns when you only have four links total. Skip them when the submenu is one item — just link directly. Skip hover-only menus with zero keyboard support, because that&apos;s not a dropdown, that&apos;s an accessibility violation wearing a bow tie. And definitely skip builder-generated menus you can&apos;t style or debug when they inevitably start pointing at pages that don&apos;t exist.
+        </p>
+        <p>
+          But if you have a real site with real sections — services, resources, about, portfolio categories — a hand-coded CSS dropdown is still a professional, lightweight, standards-friendly solution. I&apos;d rather write twenty lines of clean CSS than bolt on a JavaScript menu library that needs three polyfills and a prayer.
+        </p>
+        <p>
+          <em>Don&apos;t drop dropdowns because they&apos;re unfashionable. Drop the bad ones. Keep the good ones. And for heaven&apos;s sake, test them with a keyboard before declaring your navigation finished.</em>
+        </p>
+        <p><small>Photos in this post are from <a href="https://unsplash.com" title="Unsplash">Unsplash</a> (free to use).</small></p>
+      </section>
+    </article>
+
+    <article class="blog-post">
+      <header>
+        <h2>Free Website Builders: The Ikea Furniture of the Internet</h2>
+        <h3>06/24/26 - Tuesday Evening</h3>
+      </header>
+
+      <section>
+        <div class="blog-image-one-off blog-photo" role="img" aria-label="Person working on a drag-and-drop website builder interface" title="Photo: Unsplash (free to use)" style="background-image: url('/images/blog/website-builder.jpg')"></div>
+        <p>
+          <strong>Let&apos;s be honest about free website makers.</strong> They promise you a gorgeous business site in an afternoon, no coding required, just drag, drop, and become a digital entrepreneur before your coffee gets cold. It sounds amazing. It also sounds like Ikea instructions that end with &quot;and somehow you now own seven extra bolts and a wobbly bookshelf that leans like it&apos;s eavesdropping.&quot;
+        </p>
+        <p>
+          I&apos;m not saying those platforms are useless for everyone. If you need a quick placeholder page for a bake sale, go forth and drag your blocks. But if you&apos;re building a real business presence — one that loads fast, ranks in search, survives a phone screen, and doesn&apos;t break when you sneeze near the settings panel — <em>free builders are a starter kit, not a finished house.</em>
+        </p>
+      </section>
+
+      <section>
+        <h3>What You&apos;re Actually Buying (Even When It&apos;s &quot;Free&quot;)</h3>
+        <div class="blog-image-one-off blog-photo" role="img" aria-label="Website template layout on a laptop screen" title="Photo: Unsplash (free to use)" style="background-image: url('/images/blog/website-template.jpg')"></div>
+        <p>
+          Free website makers sell convenience. What they often deliver is a template wearing your logo like a borrowed jacket. You get limited layouts, bloated page weight, generic markup, and branding that whispers &quot;I was assembled at 11 p.m. from a dropdown menu.&quot; Search engines notice. Customers notice. You notice when your contact form sends messages into the void like a message in a bottle with no ocean.
+        </p>
+        <ul>
+          <li>Cookie-cutter structure that looks like every competitor on the same platform</li>
+          <li>Code you don&apos;t control — and can&apos;t fix when something breaks</li>
+          <li>Features that mysteriously require a paid plan the moment you need them</li>
+          <li>SEO tools that are mostly stickers on a broken windshield</li>
+        </ul>
+        <p>
+          A professional builds your site like a carpenter builds a cabinet: measured, intentional, and meant to last longer than the trend cycle. A free builder gives you pre-cut panels and hopes you don&apos;t notice the missing back wall until tax season.
+        </p>
+      </section>
+
+      <section>
+        <h3>Why Professionals Still Win</h3>
+        <p>
+          I hand-code websites. Yes, I&apos;m biased. I&apos;m also the person clients call after the free-builder experiment develops &quot;personality&quot; — which is code for random layout shifts, broken mobile menus, and contact forms that work only on Tuesdays. A pro handles hosting setup, error correction, semantic HTML, accessibility, and the boring technical stuff that makes a site <em>work</em> instead of merely <em>exist</em>.
+        </p>
+        <p>
+          <em>Save the DIY energy for painting your guest room. Let someone who dreams in valid markup build the thing customers judge you by in the first three seconds.</em>
+        </p>
+        <p><small>Photos in this post are from <a href="https://unsplash.com" title="Unsplash">Unsplash</a> (free to use).</small></p>
+      </section>
+    </article>
+
+    <article class="blog-post">
+      <header>
+        <h2>DIY Web Hosting: A Love Story Told Entirely in Error Logs</h2>
+        <h3>06/23/26 - Monday Night</h3>
+      </header>
+
+      <section>
+        <div class="blog-image-one-off blog-photo" role="img" aria-label="Server racks in a data center" title="Photo: Unsplash (free to use)" style="background-image: url('/images/blog/server-hosting.jpg')"></div>
+        <p>
+          <strong>So you decided to host your own website.</strong> Brave. Romantic, even. You pictured yourself as the captain of your digital ship, steering through calm seas of bandwidth while your business logo glows heroically in the moonlight. Then you met Apache. Or Nginx. Or a hosting control panel that looks friendly until you click the wrong toggle and your site starts speaking HTTP 500 like it&apos;s possessed.
+        </p>
+        <p>
+          DIY hosting isn&apos;t impossible. Plenty of smart people do it. But &quot;possible&quot; and &quot;wise use of a business owner&apos;s Tuesday&quot; are different categories. When your site goes down at 9 p.m. and you&apos;re the only IT department, you become customer support, sysadmin, and emotional support animal for yourself.
+        </p>
+      </section>
+
+      <section>
+        <h3>The Greatest Hits of Self-Hosted Panic</h3>
+        <div class="blog-image-one-off blog-photo" role="img" aria-label="Developer troubleshooting code errors on a monitor" title="Photo: Unsplash (free to use)" style="background-image: url('/images/blog/error-debugging.jpg')"></div>
+        <p>
+          I&apos;ve lived this on Arch Linux, which means I chose difficulty mode with a smile. Your hosting adventure may include:
+        </p>
+        <ul>
+          <li>DNS records that point nowhere, like a GPS with commitment issues</li>
+          <li>SSL certificates that expire quietly and take your trust badge with them</li>
+          <li>File permissions that turn a simple upload into a philosophical crisis</li>
+          <li>PHP version mismatches where localhost is PHP 8 and production is PHP 7.4 and nothing is fine</li>
+          <li>Error logs that read like passive-aggressive poetry</li>
+        </ul>
+        <p>
+          Professionals set up hosting so it&apos;s monitored, backed up, and recoverable. You set up hosting and then Google &quot;why is my website blank&quot; with the desperation of someone who can hear their phone ringing with client calls.
+        </p>
+      </section>
+
+      <section>
+        <h3>Let Someone Else Carry the Uptime</h3>
+        <p>
+          Your business website should sell your services, not teach you the emotional range of server administration. Hire someone who knows how to configure hosting, fix errors before you notice them, and deploy updates without accidentally uploading your entire site into the <code>contact/</code> folder. Ask me how I know that last one is possible.
+        </p>
+        <p>
+          <em>Your job is your business. My job is making sure the internet shows up when people look for you.</em>
+        </p>
+        <p><small>Photos in this post are from <a href="https://unsplash.com" title="Unsplash">Unsplash</a> (free to use).</small></p>
+      </section>
+    </article>
+
+    <article class="blog-post">
+      <header>
+        <h2>The &quot;Free&quot; Website Maker Plot Twist: Starring Your Credit Card</h2>
+        <h3>06/22/26 - Sunday Afternoon</h3>
+      </header>
+
+      <section>
+        <div class="blog-image-one-off blog-photo" role="img" aria-label="Contactless payment at a checkout terminal" title="Photo: Unsplash (free to use)" style="background-image: url('/images/blog/payment-upsell.jpg')"></div>
+        <p>
+          <strong>Free website platforms are like sample trays at the warehouse store.</strong> Delicious at first. Encouraging. Then suddenly you&apos;re walking out with a forklift pallet of premium widgets you didn&apos;t know existed, plus a membership fee, plus an ad campaign upsell, plus the vague feeling you were upsold by a chatbot wearing a smile.
+        </p>
+        <p>
+          You start on the free plan. You pick a template. You add your logo. Then you need a custom domain. Then you need to remove their branding. Then you need forms that actually email you. Then you need SEO tools that do more than whisper encouragement. Each step is a small toll booth on the road to a &quot;professional&quot; site that still isn&apos;t as professional as one built correctly from the start.
+        </p>
+      </section>
+
+      <section>
+        <h3>The Hidden Invoice Nobody Reads at 2 a.m.</h3>
+        <div class="blog-image-one-off blog-photo" role="img" aria-label="Analytics dashboard with charts and metrics on a screen" title="Photo: Unsplash (free to use)" style="background-image: url('/images/blog/analytics-dashboard.jpg')"></div>
+        <p>
+          DIY platforms love offering coupons for Google Ads when what you actually need is clean HTML, fast loading pages, and a site structure search engines can understand without deciphering a JavaScript jungle. So you pay monthly for the builder <em>and</em> you pay for ads to compensate for weak organic visibility. Congratulations — you now have recurring billing and a hobby.
+        </p>
+        <ul>
+          <li>Monthly platform fees that never quite end</li>
+          <li>Paid add-ons for basics like forms, analytics, or removing ads</li>
+          <li>Migration pain if you ever want to leave</li>
+          <li>Time — the most expensive line item, always omitted from the brochure</li>
+        </ul>
+        <p>
+          Hiring a professional often costs more upfront and less forever. You get a site you own, code that isn&apos;t held hostage, and a human who answers questions without making you watch a tutorial hosted by a cheerful stranger.
+        </p>
+      </section>
+
+      <section>
+        <h3>Do the Math Like a Grown-Up Business</h3>
+        <p>
+          If your hourly rate is worth anything, multiply the hours you&apos;ll spend fighting templates by that number. Add platform fees for a year. Add the ad spend you&apos;ll need because your pages load like they&apos;re carrying emotional baggage. Compare that to a hand-coded site built for your audience, your goals, and your sanity.
+        </p>
+        <p>
+          <em>Free is a marketing word. Professional is a results word. Choose accordingly before your &quot;simple website project&quot; becomes a part-time job you didn&apos;t apply for.</em>
+        </p>
+        <p><small>Photos in this post are from <a href="https://unsplash.com" title="Unsplash">Unsplash</a> (free to use).</small></p>
+      </section>
+    </article>
+
+    <article class="blog-post">
+      <header>
+        <h2>Mobile-First Design: Because Thumbs Are Not Mouse Pointers</h2>
+        <h3>06/21/26 - Saturday Morning</h3>
+      </header>
+
+      <section>
+        <div class="blog-image-one-off blog-photo" role="img" aria-label="Hand holding a smartphone with apps on the screen" title="Photo: Unsplash (free to use)" style="background-image: url('/images/blog/smartphone-hand.jpg')"></div>
+        <p>
+          <strong>Designing for desktop first in 2026 is like opening a drive-through and then acting surprised that people keep walking up to the window.</strong> Most of your visitors are on phones. They are not carrying mice. They are carrying thumbs — wonderful, clumsy, opinionated thumbs that will not delicately hover over your tiny navigation links like a museum curator.
+        </p>
+        <p>
+          Mobile-first design means you plan for the small screen first, then expand gracefully for larger ones. Not the reverse. Not &quot;shrink the desktop site until the menu catches fire.&quot; You build for real human hands, real glare on screens, and real impatience.
+        </p>
+      </section>
+
+      <section>
+        <h3>What Mobile-First Actually Looks Like</h3>
+        <div class="blog-image-one-off blog-photo" role="img" aria-label="Smartphone displaying a grid of mobile app icons" title="Photo: Unsplash (free to use)" style="background-image: url('/images/blog/mobile-thumb.jpg')"></div>
+        <p>
+          Mobile-first is not one CSS trick. It&apos;s a mindset:
+        </p>
+        <ul>
+          <li>Navigation that works with one thumb, not a full-hand yoga pose</li>
+          <li>Text that reads without pinch-zoom archaeology</li>
+          <li>Buttons large enough to tap confidently, not accidentally summon the footer</li>
+          <li>Images that load quickly instead of staging a bandwidth protest</li>
+          <li>Content hierarchy that makes sense when the screen is taller than it is wide</li>
+        </ul>
+        <p>
+          I reworked my own site header because the title kept invading the navbar like an overfriendly houseguest. Balance matters on mobile. So does humility — your giant desktop hero image does not get to bully the rest of the layout on a phone.
+        </p>
+      </section>
+
+      <section>
+        <h3>Design for the Device People Actually Use</h3>
+        <p>
+          If you hire someone to build your website, ask how they handle mobile. If they say &quot;it auto-resizes,&quot; ask follow-up questions with the intensity of a detective who just found suspicious footprints. Auto-resizing is not a strategy. Intentional mobile design is.
+        </p>
+        <p>
+          <em>Your customers are not sitting at desks waiting to admire your hover effects. They&apos;re on couches, in parking lots, and in line at the grocery store. Meet them where their thumbs are.</em>
+        </p>
+        <p><small>Photos in this post are from <a href="https://unsplash.com" title="Unsplash">Unsplash</a> (free to use).</small></p>
+      </section>
+    </article>
+
+    <article class="blog-post">
+      <header>
+        <h2>Designing Exclusively for Phones: Welcome to the Thumb Zone</h2>
+        <h3>06/20/26 - Friday Afternoon</h3>
+      </header>
+
+      <section>
+        <div class="blog-image-one-off blog-photo" role="img" aria-label="Mobile app icons displayed on a smartphone home screen" title="Photo: Unsplash (free to use)" style="background-image: url('/images/blog/mobile-apps.jpg')"></div>
+        <p>
+          <strong>Some businesses should think phone-only from the jump.</strong> Food trucks, personal trainers, mobile groomers, emergency plumbers — if your customer is likely to find you while squinting at a screen between errands, your website is a phone tool first and a desktop experience second. Maybe third. Maybe &quot;we&apos;ll get to it after lunch.&quot;
+        </p>
+        <p>
+          Phone-exclusive design doesn&apos;t mean you ignore desktop. It means you stop treating mobile like the kid&apos;s table at Thanksgiving. You design for the thumb zone — the area at the bottom of the screen where human thumbs naturally camp out — and you build navigation that respects one-handed reality.
+        </p>
+      </section>
+
+      <section>
+        <h3>The Thumb Zone Is Real Estate, Not Decoration</h3>
+        <div class="blog-image-one-off blog-photo" role="img" aria-label="Responsive website layout shown across mobile devices" title="Photo: Unsplash (free to use)" style="background-image: url('/images/blog/mobile-responsive.jpg')"></div>
+        <p>
+          Put the important stuff where thumbs can reach it:
+        </p>
+        <ul>
+          <li>Call buttons — obvious, tappable, not hidden behind a philosophical hamburger menu</li>
+          <li>Contact actions near the bottom or within easy thumb arc</li>
+          <li>Short paragraphs and scannable headings — nobody reads a novel on a bus</li>
+          <li>Forms with big inputs and sane autofill support</li>
+          <li>Fast load times, because mobile networks love to humble us</li>
+        </ul>
+        <p>
+          Desktop can still look beautiful. But if the phone experience is an afterthought, you&apos;re essentially hanging your business sign at the wrong end of the building and wondering why foot traffic is low.
+        </p>
+      </section>
+
+      <section>
+        <h3>Mobile-Exclusive Thinking Saves Money Later</h3>
+        <p>
+          Retrofitting mobile usability onto a desktop-first site is like adding a wheelchair ramp by rearranging the stairs. Possible. Expensive. Full of compromises. Start with the phone, expand upward, and you&apos;ll spend less time fixing layouts that break every time someone rotates their screen.
+        </p>
+        <p>
+          <em>Design for thumbs. Test on real phones. Assume your visitor is standing in bright sunlight with 14% battery and zero patience. If it works there, it works everywhere.</em>
+        </p>
+        <p><small>Photos in this post are from <a href="https://unsplash.com" title="Unsplash">Unsplash</a> (free to use).</small></p>
+      </section>
+    </article>
+
+    <article class="blog-post">
+      <header>
+        <h2>Desktop-Last Design: Why Your Giant Menu Is a Crime Scene</h2>
+        <h3>06/19/26 - Thursday Evening</h3>
+      </header>
+
+      <section>
+        <div class="blog-image-one-off blog-photo" role="img" aria-label="Person reviewing mobile interface design on a laptop" title="Photo: Unsplash (free to use)" style="background-image: url('/images/blog/mobile-ui.jpg')"></div>
+        <p>
+          <strong>Have you ever opened a website on your phone and immediately felt tired?</strong> Like the menu expected you to perform a ceremonial swipe sequence before revealing the phone number? That&apos;s desktop-last design wearing a mobile disguise. It looks responsive. It feels punitive.
+        </p>
+        <p>
+          Desktop-last happens when someone builds a sprawling horizontal layout with twelve navigation items, four dropdowns, and a hero banner the size of a billboard, then &quot;fixes&quot; mobile by hiding everything behind a hamburger icon and hoping for the best. The hamburger is not a strategy. It&apos;s a junk drawer.
+        </p>
+      </section>
+
+      <section>
+        <h3>Signs Your Site Was Desktop&apos;s Favorite Child</h3>
+        <div class="blog-image-one-off blog-photo" role="img" aria-label="Person using a smartphone outdoors in bright light" title="Photo: Unsplash (free to use)" style="background-image: url('/images/blog/mobile-standards.jpg')"></div>
+        <ul>
+          <li>Tiny tap targets packed tighter than seats on a budget airline</li>
+          <li>Horizontal scrolling — the UX equivalent of a haunted hallway</li>
+          <li>Pop-ups that cover the entire screen and refuse to leave politely</li>
+          <li>Text over images with contrast so low it qualifies as abstract art</li>
+          <li>Contact forms that zoom the page when you tap a field because font sizes were an afterthought</li>
+        </ul>
+        <p>
+          Mobile users don&apos;t want the desktop experience in miniature. They want the <em>right</em> experience for the device they&apos;re holding. That usually means fewer choices up front, clearer calls to action, and content that loads before their coffee cools.
+        </p>
+      </section>
+
+      <section>
+        <h3>Flip the Priority Order</h3>
+        <p>
+          Build mobile layout first. Test it. Make it excellent. Then ask what desktop can add without ruining the clarity you earned. Desktop gets bonus space — use it for richer visuals, not for dumping every link you&apos;ve ever thought of into one navbar.
+        </p>
+        <p>
+          <em>A professional designs for the phone in your customer&apos;s hand, not the monitor in your office. The giant menu can stay on desktop if it behaves. On mobile, simplicity is not minimalism — it&apos;s respect.</em>
+        </p>
+        <p><small>Photos in this post are from <a href="https://unsplash.com" title="Unsplash">Unsplash</a> (free to use).</small></p>
+      </section>
+    </article>
+
+    <article class="blog-post">
+      <header>
+        <h2>SEO Doesn&apos;t Start With a Plugin — It Starts With Your HTML</h2>
+        <h3>06/16/26 - Monday Morning</h3>
+      </header>
+
+      <section>
+        <div class="blog-image-one-off blog-photo" role="img" aria-label="Search engine optimization analytics on a laptop screen" title="Photo: Unsplash (free to use)" style="background-image: url('/images/blog/seo-analytics.jpg')"></div>
+        <p>
+          <strong>People love asking me for SEO like it&apos;s a spray you mist over a finished website.</strong> Poof, rankings! In reality, SEO starts while the HTML is being written — not after the site is already a tangled ball of divs, inline styles, and JavaScript that needs three wishes and a sacrifice to load.
+        </p>
+        <p>
+          Search engines are trying to understand your content and serve relevant results. They are not impressed by a plugin badge if the underlying markup is nonsense. Clean structure helps crawlers. Clear headings help relevance. Fast pages help everyone, including the human beings who were allegedly the point.
+        </p>
+      </section>
+
+      <section>
+        <h3>What Search Engines Actually Read First</h3>
+        <div class="blog-image-one-off blog-photo" role="img" aria-label="SEO and search marketing concept on a computer screen" title="Photo: Unsplash (free to use)" style="background-image: url('/images/blog/seo-search.jpg')"></div>
+        <p>
+          Before backlinks, before keyword campaigns, before you name your blog posts like a courtroom drama, get the foundation right:
+        </p>
+        <ul>
+          <li>One clear <code>&lt;h1&gt;</code> per page that says what the page is about</li>
+          <li>Logical heading hierarchy — not three <code>&lt;h2&gt;</code>s because they looked big</li>
+          <li>Descriptive <code>title</code> and meta description tags written for humans, not robots cosplaying as humans</li>
+          <li>Semantic elements so crawlers know what&apos;s navigation, what&apos;s main content, and what&apos;s footer</li>
+          <li>Clean URLs and internal links that make sense without a treasure map</li>
+        </ul>
+        <p>
+          Free website builders often bury your actual content under layers of generated markup. Hand-coded sites can give search engines exactly what they need — which is why I keep preaching standards even when it&apos;s more work upfront.
+        </p>
+      </section>
+
+      <section>
+        <h3>Plugins Don&apos;t Fix Spaghetti</h3>
+        <p>
+          If your site code is a mess, an SEO plugin is like putting a air freshener in a car that&apos;s on fire. It smells like progress. It is not progress. Hire someone who builds SEO into the structure from day one, and you&apos;ll spend less time chasing rankings and more time answering leads.
+        </p>
+        <p>
+          <em>Good SEO is good coding with business goals. Wild concept, I know.</em>
+        </p>
+        <p><small>Photos in this post are from <a href="https://unsplash.com" title="Unsplash">Unsplash</a> (free to use).</small></p>
+      </section>
+    </article>
+
+    <article class="blog-post">
+      <header>
+        <h2>Semantic Markup: The Search Engine&apos;s Love Language</h2>
+        <h3>06/15/26 - Sunday Afternoon</h3>
+      </header>
+
+      <section>
+        <div class="blog-image-one-off blog-photo" role="img" aria-label="HTML and CSS code on a developer laptop" title="Photo: Unsplash (free to use)" style="background-image: url('/images/blog/semantic-code.jpg')"></div>
+        <p>
+          <strong>Search engines don&apos;t fall in love with your font choices.</strong> They fall for structure. Semantic HTML is how you tell crawlers, browsers, and assistive technology what your content <em>means</em>, not just what it looks like. It&apos;s the difference between a labeled filing cabinet and a cardboard box labeled &quot;stuff.&quot;
+        </p>
+        <p>
+          When I fixed my own site, I replaced misused ARIA roles and div fortresses with actual landmarks: <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;footer&gt;</code>. Search engines eat that up because they can find your content without wading through hundreds of lines of framework noise.
+        </p>
+      </section>
+
+      <section>
+        <h3>Semantic HTML Is SEO Infrastructure</h3>
+        <div class="blog-image-one-off blog-photo" role="img" aria-label="Developer writing code on a MacBook" title="Photo: Unsplash (free to use)" style="background-image: url('/images/blog/macbook-code.jpg')"></div>
+        <ul>
+          <li><code>&lt;article&gt;</code> for self-contained content like blog posts — hello, this page</li>
+          <li><code>&lt;section&gt;</code> for grouped topics within a page</li>
+          <li><code>&lt;nav&gt;</code> for navigation, not every list of links on earth</li>
+          <li>Real text in headings, not images pretending to be headlines</li>
+          <li>Alt text on images that describes the image, not keyword stuffing</li>
+        </ul>
+        <p>
+          Machine-generated sites from free builders often output markup that looks like it was assembled by a blender. You get divs with classes named after internal IDs that mean nothing to Google. Hand-coded semantic pages give crawlers a straight path to your words — which is kind of the whole point of having a business website.
+        </p>
+      </section>
+
+      <section>
+        <h3>Standards Are a Ranking Advantage, Not Homework</h3>
+        <p>
+          Will semantic HTML alone put you at #1 for every keyword? No. SEO is still a buffet of content quality, relevance, performance, and backlinks. But standards-compliant markup removes self-inflicted obstacles. You stop making search engines guess. You stop hiding your best content behind code they struggle to parse.
+        </p>
+        <p>
+          <em>Speak the search engine&apos;s love language: clear structure, honest headings, and HTML that means what it says.</em>
+        </p>
+        <p><small>Photos in this post are from <a href="https://unsplash.com" title="Unsplash">Unsplash</a> (free to use).</small></p>
+      </section>
+    </article>
+
+    <article class="blog-post">
+      <header>
+        <h2>Web Standards, Clean Code, and SERPs: Stop Making Google Work Overtime</h2>
+        <h3>06/14/26 - Saturday Morning</h3>
+      </header>
+
+      <section>
+        <div class="blog-image-one-off blog-photo" role="img" aria-label="Business professional reviewing analytics and planning documents" title="Photo: Unsplash (free to use)" style="background-image: url('/images/blog/business-planning.jpg')"></div>
+        <p>
+          <strong>SERPs — Search Engine Results Pages — are where your website either gets invited to the party or left home with a broken layout and a 404 excuse.</strong> You can&apos;t buy your way into credibility with ads alone if your organic foundation is wobbly. Web standards coding is how you make sure search engines can read, index, and trust your pages without sending a crawler on a three-day expedition through JavaScript soup.
+        </p>
+        <p>
+          I&apos;ve seen sites where the visible text is fine and the underlying code is a horror novel. Search engines see both. So do accessibility tools. So do I, when a client asks why their &quot;free website&quot; isn&apos;t showing up for anything except the business name spelled wrong.
+        </p>
+      </section>
+
+      <section>
+        <h3>How Standards Affect Real Search Performance</h3>
+        <div class="blog-image-one-off blog-photo" role="img" aria-label="Marketing analytics and growth charts on a laptop" title="Photo: Unsplash (free to use)" style="background-image: url('/images/blog/marketing-strategy.jpg')"></div>
+        <ul>
+          <li><strong>Indexability:</strong> valid, semantic markup helps crawlers find and understand your content</li>
+          <li><strong>Performance:</strong> lean HTML/CSS loads faster — and speed influences rankings and human patience</li>
+          <li><strong>Accessibility:</strong> overlaps with SEO more than people think; clear structure helps everyone</li>
+          <li><strong>Mobile usability:</strong> a standards-aware responsive site beats a broken shrink-to-fit layout</li>
+          <li><strong>Maintainability:</strong> clean code makes SEO updates possible without rewriting the whole site</li>
+        </ul>
+        <p>
+          When I ran validators on my own pages and cleaned up over a hundred errors, I wasn&apos;t just checking boxes. I was making the site easier for search engines, browsers, and future me to live with. That&apos;s the professional difference: we build for results, not just screenshots.
+        </p>
+      </section>
+
+      <section>
+        <h3>Your Competitor&apos;s Secret Weapon Might Be Valid HTML</h3>
+        <p>
+          Wild idea: what if the business ranking above you simply has a faster, cleaner, more intelligible website? No magic. No keyword stuffing. Just standards, solid content, and markup that doesn&apos;t require a search engine to solve a puzzle before reading your phone number.
+        </p>
+        <p>
+          <em>Stop making Google work overtime. Build it right, structure it honestly, and let your content show up where your customers are already looking.</em>
+        </p>
+        <p><small>Photos in this post are from <a href="https://unsplash.com" title="Unsplash">Unsplash</a> (free to use).</small></p>
+      </section>
+    </article>
+
+    <article class="blog-post">
+      <header>
+        <h2>Web Standards in 2026: Or, Why Your &quot;It Looks Fine on My Laptop&quot; Defense Won&apos;t Hold Up in Court</h2>
+        <h3>06/18/26 - Wednesday Afternoon</h3>
+      </header>
+
+      <section>
+        <div class="blog-image-one-off blog-photo" role="img" aria-label="Open laptop showing a web development workspace" title="Photo: Unsplash (free to use)" style="background-image: url('/images/blog/standards-laptop.jpg')"></div>
+        <p>
+          <strong>Let&apos;s talk about web standards.</strong> Not the boring conference-room kind where someone reads forty slides about W3C governance while the audience dreams of lunch. I mean the practical stuff: semantic HTML, accessible forms, valid markup, and not treating your homepage like a MySpace page from 2007 that learned React and developed confidence issues.
+        </p>
+        <p>
+          I sell websites for a living. I preach standards on my services page. Then I ran a validator on my own site and nearly spilled coffee on my keyboard — which, given my header background, would have been a weirdly on-brand disaster. The point stands: <em>standards matter even when you think you&apos;re the exception.</em> Especially then.
+        </p>
+      </section>
+
+      <section>
+        <h3>Semantic HTML Is Not Decoration</h3>
+        <div class="blog-image-one-off blog-photo" role="img" aria-label="HTML and CSS code displayed on a computer screen" title="Photo: Unsplash (free to use)" style="background-image: url('/images/blog/semantic-code.jpg')"></div>
+        <p>
+          A <code>&lt;div&gt;</code> is a perfectly fine element. I have nothing against divs. But when your entire page is seventeen nested divs and a prayer, you haven&apos;t built a website — you&apos;ve built a cardboard fort. Screen readers, search engines, and future-you-at-2-a.m. all need real landmarks: <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;footer&gt;</code>.
+        </p>
+        <p>
+          I once found a page using <code>role=&quot;contentinfo&quot;</code> on the main content area. That&apos;s like putting a &quot;EXIT&quot; sign on the front door of a restaurant. Technically a door. Semantically a cry for help. Standards exist so machines and humans can agree what things <em>are</em>, not just what color you made them in CSS.
+        </p>
+      </section>
+
+      <section>
+        <h3>Accessibility: Not Just for &quot;Those Users&quot;</h3>
+        <div class="blog-image-one-off blog-photo" role="img" aria-label="Team collaborating around laptops in a meeting" title="Photo: Unsplash (free to use)" style="background-image: url('/images/blog/team-standards.jpg')"></div>
+        <p>
+          &quot;Nobody uses keyboard navigation.&quot; Incorrect. I do. Your privacy-conscious cousin does. Your client with repetitive strain injury does. The judge reviewing a discrimination complaint might not tab through your site personally, but they will care whether you planned for people who don&apos;t interact with a mouse the way a hyperactive squirrel does.
+        </p>
+        <ul>
+          <li>Visible focus styles — so tabbing doesn&apos;t feel like navigating by sonar</li>
+          <li>Real <code>label</code> elements tied to inputs — placeholders are hints, not identities</li>
+          <li>Buttons that are <code>&lt;button&gt;</code>s, not divs wearing a fake mustache</li>
+          <li>Dialogs that trap focus and close with Escape — like civilized software</li>
+        </ul>
+        <p>
+          Accessibility isn&apos;t charity. It&apos;s quality control. Also, it keeps you from accidentally building a contact form that only works if you click one exact pixel while the moon is in Aquarius.
+        </p>
+      </section>
+
+      <section>
+        <h3>Validators Exist Because Hubris Is Free</h3>
+        <div class="blog-image-one-off blog-photo" role="img" aria-label="Developer reviewing code on a laptop screen" title="Photo: Unsplash (free to use)" style="background-image: url('/images/blog/validator-screen.jpg')"></div>
+        <p>
+          Browsers are famously forgiving. You can serve HTML that looks like it was typed by a cat walking across a keyboard, and Chrome will still render something. Usually. Maybe. On Tuesdays. That tolerance is a trap. It trains developers to believe their code is fine because nothing exploded in their face immediately.
+        </p>
+        <p>
+          Run a validator. Run Lighthouse. Run an accessibility checker. Yes, you will get feedback. Some of it will sting. I went from <strong>111 errors</strong> to zero on my main pages, and the experience was humbling in the way stepping on a bathroom scale after the holidays is humbling — informative, necessary, and slightly personal.
+        </p>
+        <p>
+          Standards-compliant markup ages better. It survives CMS changes, redesigns, and that intern who &quot;just tweaks one thing&quot; and accidentally rewrites the footer in Comic Sans inline styles.
+        </p>
+      </section>
+
+      <section>
+        <h3>Mobile Is Not a Cute Little Extra Screen</h3>
+        <div class="blog-image-one-off blog-photo" role="img" aria-label="Person holding a smartphone with apps on the screen" title="Photo: Unsplash (free to use)" style="background-image: url('/images/blog/mobile-standards.jpg')"></div>
+        <p>
+          Over half your visitors are probably on phones. If your layout only sings on a 27-inch monitor, congratulations — you&apos;ve built a desktop screensaver with SEO ambitions. Responsive design isn&apos;t &quot;make it narrower until it fits.&quot; It&apos;s structure, typography, touch targets, and not making people pinch-zoom to read a sentence that should wrap like a normal paragraph.
+        </p>
+        <p>
+          I recently reworked my own mobile header because the title was either invading the navbar like an overfriendly houseguest or shrinking to microscopic size like it owed the layout money. Balance matters. Standards matter there too: readable text, usable navigation, content that doesn&apos;t require archaeological skills to find.
+        </p>
+      </section>
+
+      <section>
+        <h3>Why This Still Matters in 2026</h3>
+        <p>
+          AI can generate a website in seconds now. Great. It can also generate a beautiful, standards-violating pile of div soup with the confidence of a golden retriever holding a live grenade. Tools get faster; fundamentals stay the same. Browsers change. Frameworks come and go. Semantic, accessible, valid markup is still how you build sites that work for real people on real devices in the real world.
+        </p>
+        <p>
+          If you hire someone to build your business site, ask what standards they follow. If they stare blankly and say &quot;it looks fine on my laptop,&quot; slowly back away while maintaining eye contact. Then call someone who knows what a <code>&lt;main&gt;</code> element is for.
+        </p>
+        <p>
+          <em>I&apos;m off to validate another page and pretend I&apos;m doing it for fun, not because I have standards now and they have me. My dog approves of this lifestyle. My validator does not approve of typos, which is why I proofread twice.</em>
+        </p>
+        <p><small>Photos in this post are from <a href="https://unsplash.com" title="Unsplash">Unsplash</a> (free to use).</small></p>
+      </section>
+    </article>
+
+    <article class="blog-post">
+      <header>
+        <h2>When Good Code Meets Bad Luck: A Week of Web Standards, FileZilla, and PHP 7.4</h2>
+        <h3>06/17/26 - Tuesday Evening</h3>
+      </header>
+
+      <section>
+        <div class="blog-image-one-off blog-photo" role="img" aria-label="Laptop with code editor open on a desk" title="Photo: Unsplash (free to use)" style="background-image: url('/images/blog/web-dev-laptop.jpg')"></div>
+        <p>
+          <strong><em>So</em> I finally sat down to make my own website practice what it preaches.</strong> Accessibility, semantic HTML, SEO-friendly markup — I talk about all of that on my services page. But when I actually ran a standards check on my local Apache setup? Oh boy. It was like hiring a building inspector for a house you built yourself and hearing them tap the walls going, <em>&quot;Hmm. Interesting choices.&quot;</em>
+        </p>
+        <p>
+          The good news: my PHP include setup — <code>header.php</code>, <code>navbar.php</code>, <code>content.php</code>, <code>footer.php</code> — is a solid pattern. One shell, swap the middle. Very &quot;reusable template files,&quot; very hand-coded, very me. The bad news: the HTML inside those includes had issues. Wrong ARIA roles, duplicate <code>&lt;h1&gt;</code> tags, inline styles everywhere, and a contact modal that only worked on the homepage because the JavaScript lived in one file instead of a shared script. Classic spaghetti — except the noodles were spread across four PHP files.
+        </p>
+      </section>
+
+      <section>
+        <h3>Apache Had Its Own Opinion</h3>
+        <div class="blog-image-one-off blog-photo" role="img" aria-label="Rows of servers in a data center" title="Photo: Unsplash (free to use)" style="background-image: url('/images/blog/server-room.jpg')"></div>
+        <p>
+          Before I could even validate anything, Apache decided to throw a 403 at me. Why? Because my <code>DocumentRoot</code> still pointed at a <code>testing/</code> folder I had already deleted. So localhost was basically serving an error page while my real site sat in <code>/srv/http</code> like a patient dog waiting to be let inside.
+        </p>
+        <p>
+          Arch Linux, as always, was helpful in the most unhelpful way: technically correct, emotionally devastating. One line in <code>httpd.conf</code>, one <code>systemctl reload httpd</code>, and suddenly the site loaded. I celebrated for approximately eleven seconds before the HTML validator reported <strong>111 errors</strong>.
+        </p>
+      </section>
+
+      <section>
+        <h3>Fixing the Markup (Without Crying)</h3>
+        <div class="blog-image-one-off blog-photo" role="img" aria-label="HTML and CSS code displayed on a computer monitor" title="Photo: Unsplash (free to use)" style="background-image: url('/images/blog/code-screen.jpg')"></div>
+        <p>
+          We cleaned up a lot. Swapped a misused <code>role=&quot;contentinfo&quot;</code> for a proper <code>&lt;main&gt;</code> landmark. Moved inline styles into <code>styles.css</code>. Fixed form fields to use <code>type=&quot;email&quot;</code> and <code>type=&quot;tel&quot;</code> instead of plain text inputs pretending to be fancy. Pulled the contact slideout into its own <code>contact-modal.php</code> include and shared the open/close logic in <code>scripts.js</code> so the nav &quot;contact us&quot; link works on every page.
+        </p>
+        <ul>
+          <li>Semantic landmarks: <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;footer&gt;</code></li>
+          <li>Keyboard focus styles for people who tab through links (like civilized humans)</li>
+          <li>A shared contact modal with <code>role=&quot;dialog&quot;</code> and Escape-to-close</li>
+          <li>Zero validator errors across the main pages when we were done locally</li>
+        </ul>
+        <p>
+          I also set up <code>restic</code> backups and a sync workflow between <code>~/Websites</code> and <code>/srv/http</code>, because I have learned — painfully — that &quot;I&apos;ll remember where everything is&quot; is not a backup strategy.
+        </p>
+      </section>
+
+      <section>
+        <h3>FileZilla: My Other Arch Nemesis</h3>
+        <div class="blog-image-one-off blog-photo" role="img" aria-label="Hands typing on a laptop during a file upload workflow" title="Photo: Unsplash (free to use)" style="background-image: url('/images/blog/ftp-upload.jpg')"></div>
+        <p>
+          Feeling confident, I opened FileZilla to upload the fixed files to my live host. Everything went great until I realized I had accidentally moved the <strong>entire site</strong> into the <code>contact/</code> folder. Not <em>a</em> contact page. Not <em>the</em> contact form. The whole dang website, nested like a matryoshka doll that nobody asked for.
+        </p>
+        <p>
+          Locally, <code>/srv/http/</code> was empty except for a <code>contact/</code> directory containing... well, everything. <code>index.php</code>, <code>blog/</code>, <code>css/</code>, the works. It was like putting your entire house inside the mailbox and wondering why mail stopped arriving.
+        </p>
+        <p>
+          A quick restore from <code>~/Websites</code>, an FTP deploy script, and we were back in business. Moral of the story: left pane is local, right pane is remote, and the FTP root is <code>/</code> — not <code>/contact/</code>. Write that on a sticky note. Tattoo it on your arm. Whatever it takes.
+        </p>
+      </section>
+
+      <section>
+        <h3>The PHP 7.4 Plot Twist</h3>
+        <div class="blog-image-one-off blog-photo" role="img" aria-label="Close-up of PHP source code on a screen" title="Photo: Unsplash (free to use)" style="background-image: url('/images/blog/php-code.jpg')"></div>
+        <p>
+          Localhost worked beautifully. The contact slideout slid. The form appeared. Life was good. Then I checked the live site and — button only. No overlay. No form. Just a button staring back at me like a prop on a movie set with no wall behind it.
+        </p>
+        <p>
+          The culprit? I used <code>str_starts_with()</code> in <code>contact-modal.php</code> to skip the modal on the contact and services pages. That function exists in PHP 8+. My live host runs <strong>PHP 7.4</strong>. So the footer include fatally errored, the modal HTML never rendered, and the button had nothing to open.
+        </p>
+        <p>
+          One line change — <code>strpos($requestUri, &apos;/contact&apos;) === 0</code> — and it worked everywhere. Local dev on PHP 8.5, production on PHP 7.4. Same files, different universe. I now respect the phrase &quot;works on my machine&quot; on a spiritual level.
+        </p>
+      </section>
+
+      <section>
+        <h3>What I&apos;m Taking Away From This</h3>
+        <p>
+          The PHP include pattern is staying. It&apos;s simple, maintainable, and very much in the spirit of hand-coded sites. But standards compliance is not a one-time chore — it&apos;s part of the craft. And deploying to a live server adds a whole other layer: PHP version differences, FTP paths, and the eternal question of &quot;wait, which folder am I in?&quot;
+        </p>
+        <p>
+          Next time I&apos;ll test the live site immediately after upload, keep my working copy in <code>~/Websites</code> for FTP convenience, and maybe — <em>maybe</em> — double-check the remote directory before clicking upload. But where&apos;s the fun in that?
+        </p>
+        <p>
+          <em>Now if you&apos;ll excuse me, I&apos;m going to go pet my dog and pretend I never saw a validator report with triple-digit errors. The site works. The modal slides. The backups run. That&apos;s a Tuesday well spent on Arch Linux.</em>
+        </p>
+        <p><small>Photos in this post are from <a href="https://unsplash.com" title="Unsplash">Unsplash</a> (free to use).</small></p>
+      </section>
+    </article>
+
+    <article class="blog-post">
+      <header>
+        <h2>The "Joys" of Web Development on Arch Linux: Apache Edition</h2>
+      </header>
+
+      <section>
+        <p>
+          <strong>Ah, the thrill of web development on Arch Linux.</strong> It's like running a marathon in a maze, blindfolded, and occasionally being chased by a bear. And that bear is Apache Web Server.
+        </p>
+        <p>
+          When I first installed Arch Linux, I knew I was signing up for a <em>bit</em> of a challenge. But hey, it’s Arch! It’s lightweight, fast, and endlessly customizable! That’s what I kept telling myself as I dove into the deep end of the Linux pool. Little did I know that getting a web development environment running on this thing would be like trying to teach a cat to swim.
+        </p>
+      </section>
+
+      <section>
+        <h3>Step 1: Installing Apache – Piece of Cake, Right?</h3>
+        <p>
+          Arch Linux: <code>You want to install Apache? No problem, just run <em>sudo pacman -S apache</em></code>.
+        </p>
+        <p>
+          Me: "Wow, this is going so smoothly. I wonder why people say Arch is hard?"
+        </p>
+        <p>
+          Five minutes later...
+        </p>
+        <p>
+          Apache: <em>"Ah, you installed me? Good. Now spend the next two hours configuring me."</em>
+        </p>
+      </section>
+
+      <section>
+        <h3>Step 2: Configuring Apache – The Real Fun Begins</h3>
+        <p>
+          Now, if you thought the installation was easy, you're in for a treat! The real "joy" starts when you try to configure Apache. Oh, you want to change the default document root to your project folder? Of course, it's just a simple change in the <code>/etc/httpd/conf/httpd.conf</code> file. Except...
+        </p>
+        <ul>
+          <li>You miss one semicolon, and Apache throws a tantrum.</li>
+          <li>You change one directory path, and suddenly it refuses to start.</li>
+          <li>You forget to enable the service at boot, and it plays hide-and-seek after every restart.</li>
+        </ul>
+        <p>
+          It’s like a highly temperamental artist – "You don’t <em>understand</em> my vision!" – while you just want to serve some HTML.
+        </p>
+      </section>
+
+      <section>
+        <h3>Step 3: Permissions – Welcome to Your New Nightmare</h3>
+        <p>
+          Ah, permissions. If there’s one thing I’ve learned, it’s that Arch Linux and Apache are both very <em>particular</em> about who’s allowed to do what. After setting up my development environment, I quickly realized that getting permissions right is more confusing than trying to explain recursion to a toddler.
+        </p>
+        <p>
+          "Why can’t Apache read my files?"
+        </p>
+        <p>
+          "Oh, because they’re in a folder owned by root? Sure, let me just—oh, wait, now <strong>nobody</strong> can read them."
+        </p>
+        <p>
+          At this point, I've chanted <code>sudo chown</code> so many times that I feel like I'm summoning some kind of permissions demon. And then there's <code>chmod</code>, which I'm pretty sure is short for "Choose How Much Of Despair."
+        </p>
+      </section>
+
+      <section>
+        <h3>Step 4: The Firewall – Apache's Bouncer</h3>
+        <p>
+          Let’s not forget the firewall. Arch Linux is very protective. You’ll try to load your site in the browser, only to be greeted by a <em>very</em> polite error message: <em>"This site can't be reached."</em>
+        </p>
+        <p>
+          Apache is running, I’ve configured it, I’ve set up my virtual hosts – but the firewall is like, "Nope, not on my watch!" It’s like Apache is the VIP guest, but the firewall forgot to check the list. So, after a good hour of opening ports, reloading services, and running <code>ufw allow 80/tcp</code>, I finally get it working.
+        </p>
+        <p>
+          Only to realize I blocked all my other services. <em>Good job, me.</em>
+        </p>
+      </section>
+
+      <section>
+        <h3>Step 5: Virtual Hosts – Let’s Make This Interesting</h3>
+        <p>
+          By the time I got to virtual hosts, I thought I was a pro. "How hard can it be?"
+        </p>
+      </section>
+    </article>
+
+    <h2>From the Archives</h2>
+    <p><em>Rants and ramblings from FierceStreet Networks (2004&ndash;2005).</em></p>
+
+    <article class="blog-post" id="apache-redirect-301">
+      <header>
+        <h2>Apache Redirect 301</h2>
+        <h3>December 04, 2005</h3>
+      </header>
+      <section>
+        <p>Since redirecting my <a href="/search-engine-optimization/">SEO tips</a> pages to the new sub domain (see previous post&hellip;), I was having problems with the redirection. I even asked the PHP/Apache forum I belong to for help. Members there, one in particular, helped me with the Apache <strong>.htaccess</strong> code.</p>
+        <p>After several attempts to make the redirection work, it seems that we all were stumped! Nothing did the trick! Well, thanks to my great new web host, it was determined that the .htaccess file was being edited at the new sub domain root, and not the original sub domain root!</p>
+      </section>
+    </article>
+
+    <article class="blog-post" id="seo-tips-moved">
+      <header>
+        <h2>Search Engine Optimization Tips &mdash; Moved!</h2>
+        <h3>November 18, 2005</h3>
+      </header>
+      <section>
+        <p>I&apos;ve moved all my blogging of SEO tips and news to my newest site, <a href="/search-engine-optimization/">search engine optimization tips</a>. Funny thing about that is, I <em>did</em> have a PR3 on that sub-domain, but since my move to a new web host, the sub domain has lost its PR!</p>
+        <p>Well, it&apos;s not the web host&apos;s fault, and it&apos;s not the actual move of the content to a new server either&hellip; Let me put it this way, I&apos;ve had to create an Apache <em>redirect 301</em> from the old site to the new SEO site. Why? Well&hellip;</p>
+        <h4>Here I go <em>thinking</em> again!</h4>
+        <p>I&apos;ve targeted &quot;search engine optimization tips&quot; as my anchor text. But, my original URL was not <code>search-engine-optimization-tips</code>, but <code>search-engine-optimization</code>. Notice the keyword <strong><em>tips</em></strong>? Google (and other SEs) will hold a result for any keyword or keyphrase found in an actual URL higher in importance than results found in simple anchor text. So I wanted to capitalize on my unlimited sub-domain account with my new hosting provider.</p>
+        <p>So, even with the 301 redirect, my site drops its PR3 due to it being a &quot;new&quot; site in Google&apos;s eyes.</p>
+      </section>
+    </article>
+
+    <article class="blog-post" id="google-advanced-search">
+      <header>
+        <h2>Google Advanced Search Filters</h2>
+        <h3>November 17, 2005</h3>
+      </header>
+      <section>
+        <p>My site ranks in 27th place in SERPs for <strong>allintitle</strong>, while I&apos;m at 6th and 7th for <strong>allintitle</strong> for the keyphrase <a href="/">web design standards</a>.</p>
+      </section>
+    </article>
+
+    <article class="blog-post" id="off-page-seo">
+      <header>
+        <h2>Off-Page Search Engine Optimization</h2>
+        <h3>October 30, 2005</h3>
+      </header>
+      <section>
+        <p>There has been a lot of talk regarding SERPs and off-page SEO. It seems that Google has changed their algorithm to thwart &quot;black-hat&quot; techniques &mdash; this is nothing new &mdash; but there&apos;s a difference. Now, sites are being penalized for linking/being linked from &quot;link-farm&quot; type of sites.</p>
+      </section>
+    </article>
+
+    <article class="blog-post" id="sitemap-updated">
+      <header>
+        <h2>Sitemap Updated!</h2>
+        <h3>September 06, 2005</h3>
+      </header>
+      <section>
+        <p>A few things have changed since my last entry. I&apos;ve completely redone the SEO page. To fully utilize SEO skills, I&apos;ve created a sub domain for search engine optimization. By doing this, I&apos;m using the keyword-in-domain-name technique.</p>
+        <p>I&apos;ve also added a few tips to the web accessibility pages. And yes, I&apos;ve updated my sitemap to reflect the additional pages.</p>
+        <h4>Hurricane Katrina</h4>
+        <p>On a sober note, let&apos;s pray for the victims of the devastating hurricane that hit our Southern States! I pray that people will open up to God, and will accept Jesus into their hearts&hellip;</p>
+      </section>
+    </article>
+
+    <article class="blog-post" id="still-alive">
+      <header>
+        <h2>I&apos;m Still Alive!</h2>
+        <h3>April 22, 2005</h3>
+      </header>
+      <section>
+        <div class="blog-image-one-off blog-photo" role="img" aria-label="Buddy the puppy" style="background-image: url('/images/buddy-baby-500x400.jpg')"></div>
+        <p>Wow, it&apos;s been a long time since I posted here! I&apos;ve made some recent changes. One change I have made is to gear this site away from selling my web design services (of which I have made <strong>no</strong> money from) and my tech support services. It is now totally geared to Web Standards, and Accessibility. Why, you ask? Well, since I was not charging anyway for my services, I wanted to (re)direct the theme to web tech stuff.</p>
+        <p>On a sad note, I had to give up my dogs this week! The picture I have of Star (bottom dog) will stay! Yes, my landlord decided that I had too many. Well, I did end up with 5 dogs! Three of them were puppies. I came upon them as, &quot;Wow, you mean I can rescue it?&quot;</p>
+        <p>So, I had two Boxer/Rottweiler puppies, and one (my favorite!!!!!) German Shepherd.</p>
+        <div class="blog-image-one-off blog-photo" role="img" aria-label="Star with Christmas hat" style="background-image: url('/images/star-500x802.jpg')"></div>
+      </section>
+    </article>
+
+    <article class="blog-post" id="ie7-and-i">
+      <header>
+        <h2>IE7 and I</h2>
+        <h3>March 04, 2005</h3>
+      </header>
+      <section>
+        <p>Well, I bit the bullet and setup <a href="https://dean.edwards.name/IE7/" rel="external">Dean Edwards&apos; IE7</a> <em>fix</em> on my web host&apos;s Apache server. Now, IE behaves <em>like</em> standards-compliant browsers like Firefox, Mozilla 1.7.5, and Opera. There were a few bugs that had to be ironed out, but Dean put a lot of work into them, and so far, so good!</p>
+        <p>On a side note, I have officially titled myself &quot;Standards Evangelist&quot;. So, not only am I an Evangelist for Christ, I also try to spread the word on <strong>web standards</strong> and <strong>accessibility</strong>.</p>
+        <p>Oh yeah, one more thing. I have decided to reveal the &quot;skipper&quot; menu. This &quot;skipper&quot;, or &quot;jump to&quot; menu allows users who have CSS turned off (many reasons!), or people who have a sight impairment of some degree, and use <strong>screen readers</strong> to surf the web, the ability to skip to the areas they prefer to read &mdash; or hear.</p>
+        <p>The technique I <em>was</em> using to hide the skipper div was pretty simple:</p>
+        <ul>
+          <li>I use an unordered list to contain the links.</li>
+          <li>I then used my external CSS file to &quot;hide&quot; it: <code>#skipper {width: 0; height: 0; overflow: hidden; text-indent: -9000px;}</code></li>
+          <li>Now, this is what I am doing: <code>#skipper {position: absolute; top: 1px; left: 1px; font-size: .7em; margin: 0; padding: 0;}</code></li>
+        </ul>
+      </section>
+    </article>
+
+    <article class="blog-post" id="xhtml-11-weblog">
+      <header>
+        <h2>XHTML 1.1</h2>
+        <h3>February 17, 2005</h3>
+      </header>
+      <section>
+        <p><strong>Big news!</strong> This weblog is now served as XHTML 1.1. If you&apos;re viewing this site with IE, then you&apos;ll get XHTML 1.0. But, if you&apos;re using a <strong>good</strong> browser, such as Mozilla Firefox, or Opera, you&apos;ll get the benefits of XHTML 1.1.</p>
+        <p>And guess what? The entry titled &quot;Google, where are you?&quot; on December 29th, &apos;04, is dynamically placed within the XHTML of this page with PHP.</p>
+      </section>
+    </article>
+
+    <article class="blog-post" id="rss">
+      <header>
+        <h2>RSS</h2>
+        <h3>February 03, 2005</h3>
+      </header>
+      <section>
+        <p>Really Simple Syndication, or RSS as it is acronymically known, is a hot tool to use on any website. I will be experimenting with it on this site very soon!</p>
+      </section>
+    </article>
+
+    <article class="blog-post" id="fir-techniques">
+      <header>
+        <h2>FIR Techniques and More</h2>
+        <h3>January 31, 2005</h3>
+      </header>
+      <section>
+        <h4>FIR</h4>
+        <p>I have decided to add the updated FIR technique to this site. This will allow me to add some cool graphical headings, without sacrificing accessibility. I am very excited about that.</p>
+        <h4>Google, Where Are You &mdash; Revisited &mdash; Way to Go MSN!</h4>
+        <p>Google <strong>still</strong> has my site within its &quot;sandbox&quot;! I cannot wait for my site to break out of it. MSN, however has formally released its beta search engine. It is now the default engine for msn.com.</p>
+        <p>The great news about this is simple&hellip; I rank at the top (3rd place/4th place!) of MSN for &quot;web design standards&quot; and &quot;small business web site design&quot;.</p>
+        <p><strong>Update</strong>: MSN has implemented their beta search engine! My site ranks <strong>3rd</strong> for the highly competitive key phrase &quot;web design standards&quot; and <strong>4th</strong> for &quot;small business web site design&quot;.</p>
+      </section>
+    </article>
+
+    <article class="blog-post" id="google-sandbox">
+      <header>
+        <h2>Google, Where Are You?</h2>
+        <h3>December 29, 2004</h3>
+      </header>
+      <section>
+        <p>I just cannot get over Google and its &quot;sandbox&quot;! Let me explain&hellip; Google seems &mdash; and this is just not theory anymore, but tested and confirmed &mdash; hides a new site, with a new domain name, from its SERPs for quite a few months.</p>
+        <p>Seem too strange to believe? I thought so too. Then, as I have been working on this site, I have noticed my SERPs dropping drastically! I had a top 5 position on Google for &quot;web design standards&quot; before I acquired my FQDN. Now, I do not even rank for that phrase in Google&apos;s top 500!</p>
+        <p>Now for the good news! I do have the top 3 position on MSN&apos;s beta search engine, as well as 4th place, for my keywords:</p>
+        <ul>
+          <li>web design standards &mdash; top 3 on MSN beta</li>
+          <li>small business website design &mdash; top 4 position on MSN beta</li>
+        </ul>
+      </section>
+    </article>
+
+    <article class="blog-post" id="new-colors">
+      <header>
+        <h2>New Colors and Other Stuff</h2>
+        <h3>December 22, 2004</h3>
+      </header>
+      <section>
+        <p>Hopefully you will like the new color scheme I have chosen for this site. I also changed the masthead logo. I used to have a close-up of a German Shepherd&apos;s face, but decided to go with a <em>cleaner</em> look.</p>
+        <p>Christmas is almost here! I cannot wait to celebrate the birth of Jesus Christ!</p>
+      </section>
+    </article>
+
+    <article class="blog-post" id="site-updates-dec">
+      <header>
+        <h2>Site Update(s)</h2>
+        <h3>December 07, 2004</h3>
+      </header>
+      <section>
+        <p>I have moved the website templates that I have created into a templates sub-folder. I will be adding an index page to the folder, and branch out the templates from that page. Right now, my sales.html page is the starting point for them.</p>
+      </section>
+    </article>
+
+    <article class="blog-post" id="re-re-redesign">
+      <header>
+        <h2>Re-Re-Redesign</h2>
+        <h3>November 29, 2004</h3>
+      </header>
+      <section>
+        <p>I have had a great Thanksgiving holiday! Speaking of re-design (ok, not making sense, but&hellip;) I have redone my Web Design Tips Tricks page. I have split the page itself into one main page, with three sub, or support, pages. They are the accessibility, SEO, and XHTML/CSS pages.</p>
+        <p>The theory behind this is called the <strong>Search Engine Optimization Pyramid</strong>.</p>
+      </section>
+    </article>
+
+    <article class="blog-post" id="re-redesign">
+      <header>
+        <h2>Re-Redesign</h2>
+        <h3>November 01, 2004</h3>
+      </header>
+      <section>
+        <p>Re-redesign &mdash; is that even a word? I guess it is now&hellip; I have redesigned most of the CSS for this site. I have kept the color scheme, but have added <strong>#9a440c</strong>. I have taken out the sidebar navigation borders, which added a button look to the links. I want a more minimalist look, and believe this is a start.</p>
+      </section>
+    </article>
+
+    <article class="blog-post" id="xhtml-11-pr">
+      <header>
+        <h2>XHTML 1.1 &mdash; Content Negotiation</h2>
+        <h3>October 25, 2004</h3>
+      </header>
+      <section>
+        <p>With the help of dyer85, I am going to use PHP to serve my pages in XHTML 1.1 &mdash; and 1.0 Strict for non-compliant browsers (MS IE). I&apos;ll keep a running log of the process.</p>
+        <p>A bit of other news, my site has the following Google PageRank:</p>
+        <ul>
+          <li>web design standards (index) &mdash; PR3</li>
+          <li>Small Business Support (/support/) &mdash; PR2</li>
+          <li>Portfolio / Sales &mdash; PR3</li>
+          <li>Weblog &mdash; N/A</li>
+          <li>Web Design Tips Tricks &mdash; PR2</li>
+          <li>Anti-Virus tips and Info &mdash; PR2</li>
+          <li>News Articles &mdash; PR1</li>
+          <li>GAWDs launch &mdash; PR2</li>
+        </ul>
+      </section>
+    </article>
+
+    <article class="blog-post" id="anniversary">
+      <header>
+        <h2>Last Weekend of This Month!</h2>
+        <h3>October 20, 2004</h3>
+      </header>
+      <section>
+        <p>My anniversary is at the end of this month. I cannot believe it has been 5 years since I got married to my beautiful wife!</p>
+      </section>
+    </article>
+
+    <article class="blog-post" id="site-update-oct">
+      <header>
+        <h2>Site Update</h2>
+        <h3>October 14, 2004</h3>
+      </header>
+      <section>
+        <p>After some good advice-links from my good friend <a href="https://billcreswell.com/" rel="external">Bill Creswell</a>, I have redone, well, torn apart is more like it, the homepage to this site. It now features &quot;everyday talk&quot; &mdash; kind of like these blog entries. I want to convey a more personal touch to my web design, and give some info in the process.</p>
+      </section>
+    </article>
+
+    <article class="blog-post" id="php-and-me">
+      <header>
+        <h2>PHP and Me</h2>
+        <h3>February 04, 2004</h3>
+      </header>
+      <section>
+        <p>My second attempt at PHP! I built a simple contact form to test form handling &mdash; name, email, URL, subject, and message fields. It was my first real step into server-side scripting on FierceStreet Networks, and it opened the door to everything that came after: dynamic includes, content negotiation for XHTML 1.1, and eventually this very site.</p>
+      </section>
+    </article>
+
+  </article>
+</main>

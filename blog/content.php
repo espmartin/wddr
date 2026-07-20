@@ -15,6 +15,161 @@
 
     <article class="blog-post">
       <header>
+        <h2>Your Website&apos;s Color Scheme, Is It GREAT?</h2>
+        <h3>07/19/26 - Sunday Evening</h3>
+      </header>
+
+      <section>
+        <div class="blog-image-one-off blog-photo" role="img" aria-label="Abstract colorful paint palette and color blends" title="Photo: Unsplash (free to use)" style="background-image: url('/images/blog/color-palette.jpg')"></div>
+        <p>
+          <strong>Color is the first impression that never introduces itself.</strong> Visitors don&apos;t say, &quot;Hmm, interesting contrast ratio on that call-to-action.&quot; They feel it. Warm or cold. Trustworthy or chaotic. Professional or &quot;my cousin picked these in PowerPoint at 1 a.m.&quot; Your color scheme is either working for you or quietly sabotaging every paragraph you carefully wrote.
+        </p>
+        <p>
+          On this site I run an olive, maroon, parchment, and brass palette — flat colors, no gradients dressed up as personality. It&apos;s deliberate: earthy greens that feel steady, a maroon that carries weight without screaming, parchment that doesn&apos;t burn your retinas at midnight, and brass for the little moments that need a wink. GREAT color schemes have a reason for existing. Random ones have a reason for redesigns.
+        </p>
+      </section>
+
+      <section>
+        <h3>What &quot;Great&quot; Actually Looks Like</h3>
+        <div class="blog-image-one-off blog-photo" role="img" aria-label="Vibrant color swatches arranged as a design palette" title="Photo: Unsplash (free to use)" style="background-image: url('/images/blog/color-swatches.jpg')"></div>
+        <p>
+          A great scheme isn&apos;t more colors. It&apos;s the right few colors doing clear jobs. Think roles, not rainbows:
+        </p>
+        <ul>
+          <li><strong>Primary</strong> — brand personality (header, key UI chrome)</li>
+          <li><strong>Accent</strong> — buttons, links, the thing you want people to click</li>
+          <li><strong>Background</strong> — the quiet stage your content stands on</li>
+          <li><strong>Text</strong> — dark enough to read without squinting; light enough for dark panels</li>
+          <li><strong>Support</strong> — borders, muted labels, hover states that feel intentional</li>
+        </ul>
+        <p>
+          If every element is shouting in a different hex code, nothing is heard. If everything is the same beige-grey mush, nothing is felt. Great schemes pick a lane: limited palette, clear hierarchy, contrast that works for actual human eyes — including eyes that aren&apos;t 20/20 and screens that aren&apos;t calibrated like a photography studio.
+        </p>
+      </section>
+
+      <section>
+        <h3>The Quick Reality Check</h3>
+        <p>
+          Ask yourself honestly:
+        </p>
+        <ul>
+          <li>Can you name your three main colors without opening the CSS file?</li>
+          <li>Do links look like links, or like decorative confetti?</li>
+          <li>Does text pass a contrast sniff-test on phone screens outdoors?</li>
+          <li>Would a color-blind visitor still understand what&apos;s clickable?</li>
+          <li>Does the palette match the business, or the template default from 2019?</li>
+        </ul>
+        <p>
+          Free builders love bright gradients and seven shades of almost-the-same blue. Hand-coded sites can do better because you own the variables. On Arch Linux, in a real stylesheet, with names like <code>--olive</code> and <code>--maroon</code>, color stops being decoration and starts being architecture.
+        </p>
+        <p>
+          <em>If your color scheme is great, people trust the page before they finish the first sentence. If it isn&apos;t, they bounce before they learn what you sell. Audit the palette. Name the roles. Cut the noise. Then let the content do the talking — in a voice your colors already introduced.</em>
+        </p>
+        <p><small>Photos in this post are from <a href="https://unsplash.com" title="Unsplash">Unsplash</a> (free to use).</small></p>
+      </section>
+    </article>
+
+    <article class="blog-post">
+      <header>
+        <h2>Never Say Never (Will I Redo My Website&apos;s Design?)</h2>
+        <h3>07/19/26 - Sunday Evening</h3>
+      </header>
+
+      <section>
+        <div class="blog-image-one-off blog-photo" role="img" aria-label="Designer working on a website layout at a desk" title="Photo: Unsplash (free to use)" style="background-image: url('/images/blog/website-redesign.jpg')"></div>
+        <p>
+          <strong>Never say never.</strong> That includes me promising I won&apos;t redesign this site again. I&apos;ve said it before — in 2004 I was already logging re-redesigns like they were weather reports. &quot;New colors.&quot; &quot;Re-redesign.&quot; &quot;Re-re-redesign.&quot; Two decades later I still open the CSS file and hear the same quiet voice: <em>what if the header breathed a little better on phones?</em>
+        </p>
+        <p>
+          Will I redo the design? Probably. Not because I&apos;m restless for novelty, but because the web moves, browsers change, and my own standards keep climbing. A site that felt sharp last year can feel slightly off after you&apos;ve fixed enough contact modals and mobile navbars for clients. You develop taste. Taste is expensive. Taste keeps opening pull requests against your own homepage.
+        </p>
+      </section>
+
+      <section>
+        <h3>Redesign Isn&apos;t Failure — Stagnation Is</h3>
+        <div class="blog-image-one-off blog-photo" role="img" aria-label="Creative design tools and color materials on a workspace" title="Photo: Unsplash (free to use)" style="background-image: url('/images/blog/design-iteration.jpg')"></div>
+        <p>
+          Business owners panic when designers talk redesign. They imagine throwing everything away and starting from a blank Figma board with a sad invoice attached. That&apos;s not always the job. Sometimes redesign means:
+        </p>
+        <ul>
+          <li>Fixing the header that invades the navbar on small screens</li>
+          <li>Replacing a palette that looks tired under modern displays</li>
+          <li>Swapping desktop-first layout for mobile-first structure</li>
+          <li>Cleaning markup so accessibility isn&apos;t an afterthought bolted on with guilt</li>
+          <li>Dropping platform chrome that no longer earns its keep</li>
+        </ul>
+        <p>
+          The worst websites are the ones frozen in amber because someone said &quot;we redesigned in 2018, we&apos;re good.&quot; The web isn&apos;t 2018. Phones aren&apos;t 2018. Your competitors aren&apos;t 2018. Never saying never means staying honest about when polish has become patchwork.
+        </p>
+      </section>
+
+      <section>
+        <h3>So&hellip; Will I?</h3>
+        <p>
+          Yes — when something stops earning its place. Maybe the olive-and-maroon story still sings for years. Maybe next year I want more whitespace, a quieter footer, or a type scale that respects long blog posts better. I won&apos;t redesign for sport. I will redesign when craft demands it.
+        </p>
+        <p>
+          That&apos;s the promise I can keep: not &quot;never again,&quot; but &quot;never casually.&quot; Hand-coded sites make that possible. You change a variable, ship a better header, FTP the files, and move on. No platform hostage situation. No template personality transplant. Just iterative craft — the same discipline that turned &quot;re-redesign&quot; from a joke title in 2004 into a professional habit in 2026.
+        </p>
+        <p>
+          <em>Never say never about redesigning your website. Say never redesign without a reason. Then keep enough skill — and ownership of the code — that when the reason shows up, you can answer it without starting from zero or renting someone else&apos;s design forever.</em>
+        </p>
+        <p><small>Photos in this post are from <a href="https://unsplash.com" title="Unsplash">Unsplash</a> (free to use).</small></p>
+      </section>
+    </article>
+
+    <article class="blog-post">
+      <header>
+        <h2>Make Coding Fun</h2>
+        <h3>07/19/26 - Sunday Evening</h3>
+      </header>
+
+      <section>
+        <div class="blog-image-one-off blog-photo" role="img" aria-label="Laptop with colorful code on screen in a bright workspace" title="Photo: Unsplash (free to use)" style="background-image: url('/images/blog/coding-fun.jpg')"></div>
+        <p>
+          <strong>If coding feels like punishment, something is wrong with the setup — not with you.</strong> I&apos;m not talking about fake hustle posters that say &quot;grind until your eyes bleed.&quot; I mean actual fun: the kind where you lose track of time fixing a layout, laughing at a console error that was one missing semicolon, and high-fiving the dog when the contact form finally submits without throwing a 500.
+        </p>
+        <p>
+          Make coding fun on purpose. Fun is not the opposite of professional. Fun is how you stay good long enough to <em>be</em> professional. Burned-out builders ship copy-paste. People who still enjoy the craft ship sites that feel cared for.
+        </p>
+      </section>
+
+      <section>
+        <h3>How I Keep It Enjoyable</h3>
+        <div class="blog-image-one-off blog-photo" role="img" aria-label="Clean coding desk with laptop and developer tools" title="Photo: Unsplash (free to use)" style="background-image: url('/images/blog/fun-coding-desk.jpg')"></div>
+        <p>
+          There&apos;s no single recipe, but here&apos;s what works in this corner of Arch Linux with a wolf wallpaper and a playlist that refuses to whisper:
+        </p>
+        <ul>
+          <li><strong>Own the tools</strong> — hand-coded HTML, CSS, and PHP beat mystery menus when you want real control</li>
+          <li><strong>Soundtrack optional, attitude required</strong> — Led Zeppelin, lo-fi, silence; pick energy that matches the task</li>
+          <li><strong>Ship small wins</strong> — one validated page beats a half-finished empire of tabs</li>
+          <li><strong>Make the environment nice</strong> — theme your editor, sit somewhere comfortable, pet the dog between deploys</li>
+          <li><strong>Learn in public (or on your own blog)</strong> — writing about what you fixed turns frustration into story</li>
+          <li><strong>Celebrate boring excellence</strong> — accessible markup, fast loads, clean FTP deploys are secretly thrilling</li>
+        </ul>
+        <p>
+          Fun is also boundaries. Turn off the fourteen Slack channels. Close the tab with the outrage of the hour. Give yourself one clear problem: make this modal close on Escape; make this color scheme stop fighting the text; make this mobile nav stop hiding Services like it&apos;s in witness protection.
+        </p>
+      </section>
+
+      <section>
+        <h3>Fun Scales Better Than Fear</h3>
+        <p>
+          Clients can feel the difference. A site built by someone who still likes coding has cleaner structure, better micro-decisions, and fewer &quot;we&apos;ll fix it later&quot; landmines. A site built under pure deadline dread often looks fine in the screenshot and falls apart the first time someone tries to use it on a phone in a parking lot.
+        </p>
+        <p>
+          So if you code for a living — or you&apos;re hiring someone who does — protect the fun. It&apos;s not childish. It&apos;s quality control with a grin. Put on the music. Open the real files. Fix one honest thing. Watch the browser obey you. That loop is why some of us have been doing this since the XHTML days and still show up on a Sunday evening ready to write another post.
+        </p>
+        <p>
+          <em>Make coding fun, and the craft stays yours. Lose the fun, and you&apos;re just renting hours to problems you no longer care about solving well. I choose fun. The validator, the dog, and the deploy log all seem to agree.</em>
+        </p>
+        <p><small>Photos in this post are from <a href="https://unsplash.com" title="Unsplash">Unsplash</a> (free to use).</small></p>
+      </section>
+    </article>
+
+    <article class="blog-post">
+      <header>
         <h2>Why Web Designing Is Fun (Yes, Actually Fun)</h2>
         <h3>07/12/26 - Saturday Evening</h3>
       </header>
